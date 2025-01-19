@@ -1,0 +1,7 @@
+Bootstrap: docker
+From: debian:bookworm
+
+%post
+  apt-get update
+  apt-get install -y git build-essential autoconf libtool
+  mkdir /work

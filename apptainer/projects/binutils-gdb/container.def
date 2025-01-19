@@ -1,0 +1,7 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get update
+  apt-get install -y libgmp-dev libmpfr-dev texinfo bison libipt-dev m4 flex
+  cd /work && git clone git://sourceware.org/git/binutils-gdb.git
