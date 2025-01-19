@@ -1,6 +1,9 @@
 Bootstrap: docker
 From: debian:bookworm
 
+%files
+  apptainer/base/compile /usr/local/bin/compile
+
 %post
   apt-get update
   apt-get install -y git build-essential autoconf libtool

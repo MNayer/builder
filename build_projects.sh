@@ -24,7 +24,7 @@ apptainer run \
   --pwd /work/ \
   --env "NPROCS=${nprocs}" \
   ${project_path}/container.sif \
-  bash -c 'cd /work && ./build.sh'
+  compile
 
 # Remove build artifacts
 rm -rf ${tempdir}

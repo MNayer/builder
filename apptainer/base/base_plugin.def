@@ -1,0 +1,31 @@
+Bootstrap: docker
+From: debian:bookworm
+
+%files
+  apptainer/base/shims /shims
+  apptainer/base/compile /usr/local/bin/compile
+
+%post
+  apt-get update
+  apt-get install -y git llvm-13 clang-13 gcc-12 g++-12 cmake autoconf libtool
+  ln -s /usr/bin/clang-13 /usr/bin/clang
+  ln -s /usr/bin/clang++-13 /usr/bin/clang++
+
+  # Build our augmentation plugin
+  mkdir plugin-build
+  cd plugin-build
+  git clone https://github.com/MNayer/llvmir-augmentation.git /plugin-src
+  cmake /plugin-src/plugin
+  make
+  mv src/libAugmentationPass.so /usr/local/lib
+
+  # Make sure only clang is used, even if gcc is called
+  rm -f /usr/bin/gcc /usr/bin/g++ /usr/bin/cpp
+  ln -s /usr/bin/gcc-12 /usr/bin/gcc-orig
+  ln -s /usr/bin/g++-12 /usr/bin/g++-orig
+  ln -s /usr/bin/cpp-12 /usr/bin/cpp-orig
+  ln -s /shims/gcc /usr/bin/gcc
+  ln -s /shims/g++ /usr/bin/g++
+  ln -s /shims/cpp /usr/bin/cpp 
+
+  mkdir /work

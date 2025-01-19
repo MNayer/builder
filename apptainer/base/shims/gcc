@@ -1,0 +1,14 @@
+#!/bin/bash
+
+clangversion=$(clang --version | grep clang | cut -d' ' -f 4 | cut -d'.' -f 1)
+pid=$$
+ppid=$(ps -p $pid -o ppid=)
+pcomm=$(ps -p $ppid -o comm=)
+
+if [ $pcomm = "clang" ] || [ $pcomm = "clang++" ] || [ $pcomm = "clang-cpp" ]; then
+  #/usr/bin/gcc-orig $@ $(cat /tmp/san/config/compiler_flags)
+  /usr/bin/gcc-orig $@
+else
+  #/usr/lib/llvm-$clangversion/bin/clang $@ $(cat /tmp/san/config/compiler_flags)
+  /usr/lib/llvm-$clangversion/bin/clang $@
+fi
