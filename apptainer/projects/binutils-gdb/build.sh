@@ -5,8 +5,10 @@ set -e
 cd binutils-gdb
 git checkout 26dd9cb647140db87a5a530fd9f044d356e081de
 
-./configure
-make -j${NPROCS} QUIET=''
+#./configure
+./configure --verbose
+#make -j${NPROCS} QUIET=''
+make -d V=1 
 
 cp ./bfd/doc/chew /out/
 cp ./gprofng/src/gprofng-display-src /out/

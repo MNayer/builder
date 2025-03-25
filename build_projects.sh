@@ -3,7 +3,8 @@
 set -e
 
 temproot=/tmp/laica/
-project_path=./apptainer/projects/file
+project_path=./apptainer/projects/binutils-gdb
+#project_path=./apptainer/projects/file
 output_path=./out
 nprocs=10
 overlay_size=8192
