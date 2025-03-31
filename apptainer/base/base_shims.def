@@ -7,17 +7,9 @@ From: debian:bookworm
 
 %post
   apt-get update
-  apt-get install -y git llvm-13 clang-13 gcc-12 g++-12 cmake autoconf libtool
+  apt-get install -y git build-essential autoconf libtool llvm-13 clang-13 gcc-12 g++-12 cmake
   ln -s /usr/bin/clang-13 /usr/bin/clang
   ln -s /usr/bin/clang++-13 /usr/bin/clang++
-
-  # Build our augmentation plugin
-  mkdir plugin-build
-  cd plugin-build
-  git clone https://github.com/MNayer/llvmir-augmentation.git /plugin-src
-  cmake /plugin-src/plugin
-  make
-  mv src/libAugmentationPass.so /usr/local/lib
 
   # Make sure only clang is used, even if gcc is called
   rm -f /usr/bin/gcc /usr/bin/g++ /usr/bin/cpp

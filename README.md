@@ -7,7 +7,6 @@
 ## Quick start
 
 ```
-mkdir out/
-./build_images.sh
-./build_projects.sh
+./scripts//build_images.sh
+./scripts//build_projects.sh
 ```
