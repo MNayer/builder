@@ -1,0 +1,62 @@
+build_project_php-src: out/php-src/test/095cbc48a8f0090f3b0abc6155f2b61943c9eafb out/php-src/test/0c8a2a2cd1056b7dc403eacb5d2c0eec6ce47c6f out/php-src/test/1744be2d17befc69bf00033993f4081852a747d6 out/php-src/test/22736b7c56d678f142d5dd21f4996e5819507a2b out/php-src/test/259057b2a484747a6c73ce54c4fa0f5acbd56179 out/php-src/test/2baeb167a08b0186a885208bdc8b5871f1681dc8 out/php-src/test/2bcbc95f033c31b00595ed39f79c3a99b4ed0501 out/php-src/test/37da90248deb2188e8ee50e4753ad6340679b425 out/php-src/test/630f9c33c23639de85c3fd306b209b538b73b4c9 out/php-src/test/64043cb9e5d8bc5af719678893e38ee0290e0c0a out/php-src/test/698a691724c0a949295991e5df091ce16f899e02 out/php-src/test/6d55ba265637d6adf0ba7e9c9ef11187d1ec2f5b out/php-src/test/8f4a6d6e1b6c36259a5dc865d16f0dad76f2f2c9 out/php-src/test/8fa9d1ce28f3a894b104979df30d0b65e0f21107 out/php-src/test/a72cd07f2983dc43a6bb35209dc4687852e53c09 out/php-src/test/b6fe458ef9ac1372b60c3d3810b0358e2e20840d out/php-src/test/cab1c3b3708eead315e033359d07049b23b147a3 out/php-src/test/cc08cbc84d46933c1e9e0149633f1ed5d19e45e9 out/php-src/test/e6c48213c22ed50b2b987b479fcc1ac709394caa out/php-src/test/feba44546c27b0158f9ac20e72040a224b918c75
+
+out/php-src/test/095cbc48a8f0090f3b0abc6155f2b61943c9eafb: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 095cbc48a8f0090f3b0abc6155f2b61943c9eafb
+
+out/php-src/test/0c8a2a2cd1056b7dc403eacb5d2c0eec6ce47c6f: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 0c8a2a2cd1056b7dc403eacb5d2c0eec6ce47c6f
+
+out/php-src/test/1744be2d17befc69bf00033993f4081852a747d6: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 1744be2d17befc69bf00033993f4081852a747d6
+
+out/php-src/test/22736b7c56d678f142d5dd21f4996e5819507a2b: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 22736b7c56d678f142d5dd21f4996e5819507a2b
+
+out/php-src/test/259057b2a484747a6c73ce54c4fa0f5acbd56179: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 259057b2a484747a6c73ce54c4fa0f5acbd56179
+
+out/php-src/test/2baeb167a08b0186a885208bdc8b5871f1681dc8: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 2baeb167a08b0186a885208bdc8b5871f1681dc8
+
+out/php-src/test/2bcbc95f033c31b00595ed39f79c3a99b4ed0501: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 2bcbc95f033c31b00595ed39f79c3a99b4ed0501
+
+out/php-src/test/37da90248deb2188e8ee50e4753ad6340679b425: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 37da90248deb2188e8ee50e4753ad6340679b425
+
+out/php-src/test/630f9c33c23639de85c3fd306b209b538b73b4c9: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 630f9c33c23639de85c3fd306b209b538b73b4c9
+
+out/php-src/test/64043cb9e5d8bc5af719678893e38ee0290e0c0a: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 64043cb9e5d8bc5af719678893e38ee0290e0c0a
+
+out/php-src/test/698a691724c0a949295991e5df091ce16f899e02: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 698a691724c0a949295991e5df091ce16f899e02
+
+out/php-src/test/6d55ba265637d6adf0ba7e9c9ef11187d1ec2f5b: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 6d55ba265637d6adf0ba7e9c9ef11187d1ec2f5b
+
+out/php-src/test/8f4a6d6e1b6c36259a5dc865d16f0dad76f2f2c9: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 8f4a6d6e1b6c36259a5dc865d16f0dad76f2f2c9
+
+out/php-src/test/8fa9d1ce28f3a894b104979df30d0b65e0f21107: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test 8fa9d1ce28f3a894b104979df30d0b65e0f21107
+
+out/php-src/test/a72cd07f2983dc43a6bb35209dc4687852e53c09: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test a72cd07f2983dc43a6bb35209dc4687852e53c09
+
+out/php-src/test/b6fe458ef9ac1372b60c3d3810b0358e2e20840d: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test b6fe458ef9ac1372b60c3d3810b0358e2e20840d
+
+out/php-src/test/cab1c3b3708eead315e033359d07049b23b147a3: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test cab1c3b3708eead315e033359d07049b23b147a3
+
+out/php-src/test/cc08cbc84d46933c1e9e0149633f1ed5d19e45e9: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test cc08cbc84d46933c1e9e0149633f1ed5d19e45e9
+
+out/php-src/test/e6c48213c22ed50b2b987b479fcc1ac709394caa: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test e6c48213c22ed50b2b987b479fcc1ac709394caa
+
+out/php-src/test/feba44546c27b0158f9ac20e72040a224b918c75: apptainer/projects/php-src/build.sh apptainer/projects/php-src/container.sif
+	./scripts/build_project.sh php-src test feba44546c27b0158f9ac20e72040a224b918c75
+

@@ -1,0 +1,7 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y pkg-config build-essential autoconf bison re2c \
+                    libxml2-dev libsqlite3-dev
+  cd /work && git clone https://github.com/php/php-src

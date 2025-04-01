@@ -5,6 +5,7 @@
 PROJECTS_WORKING := \
 	file \
 	gpac \
+	php-src \
 	radare2 \
 	vim
 
