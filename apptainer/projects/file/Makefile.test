@@ -1,0 +1,8 @@
+build_project_file: out/file/test/209113ac443c82cc7573bb228b68ce1dd9d50f90 out/file/test/46a8443f76cec4b41ec736eca396984c74664f84
+
+out/file/test/209113ac443c82cc7573bb228b68ce1dd9d50f90: apptainer/projects/file/build.sh apptainer/projects/file/container.sif
+	./scripts/build_project.sh file test 209113ac443c82cc7573bb228b68ce1dd9d50f90
+
+out/file/test/46a8443f76cec4b41ec736eca396984c74664f84: apptainer/projects/file/build.sh apptainer/projects/file/container.sif
+	./scripts/build_project.sh file test 46a8443f76cec4b41ec736eca396984c74664f84
+

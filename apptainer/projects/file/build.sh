@@ -3,9 +3,13 @@
 set -e
 
 cd file
-git checkout 1778642b8ba3d947a779a36fcd81f8e807220a19
+
+if [ -z "${COMMIT_HASH}" ]; then
+    git checkout ${COMMIT_HASH}
+    git submodule update --init --recursive
+fi
 
 autoreconf -fi
-./configure --prefix=/out/
+./configure --prefix=/out/ --cache-file=/cache/config.cache
 make -j${NPROCS} QUIET=''
 make install
