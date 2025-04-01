@@ -1,0 +1,32 @@
+build_project_mruby: out/mruby/train/1905091634a6a2925c911484434448e568330626 out/mruby/train/55edae0226409de25e59922807cb09acb45731a2 out/mruby/train/5c114c91d4ff31859fcd84cf8bf349b737b90d99 out/mruby/train/778500563a9f7ceba996937dc886bd8cde29b42b out/mruby/train/7f5a490d09f4d56801ac3a3e4e39e03e1471b44c out/mruby/train/b51b21fc63c9805862322551387d9036f2b63433 out/mruby/train/b611c43a5de061ec21b343967e1b64c45c373d7e out/mruby/train/b64ce17852b180dfeea81cf458660be41a78974d out/mruby/train/faa4eaf6803bd11669bc324b4c34e7162286bfa3 out/mruby/train/ff3a5ebed6ffbe3e70481531cfb969b497aa73ad
+
+out/mruby/train/1905091634a6a2925c911484434448e568330626: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train 1905091634a6a2925c911484434448e568330626
+
+out/mruby/train/55edae0226409de25e59922807cb09acb45731a2: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train 55edae0226409de25e59922807cb09acb45731a2
+
+out/mruby/train/5c114c91d4ff31859fcd84cf8bf349b737b90d99: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train 5c114c91d4ff31859fcd84cf8bf349b737b90d99
+
+out/mruby/train/778500563a9f7ceba996937dc886bd8cde29b42b: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train 778500563a9f7ceba996937dc886bd8cde29b42b
+
+out/mruby/train/7f5a490d09f4d56801ac3a3e4e39e03e1471b44c: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train 7f5a490d09f4d56801ac3a3e4e39e03e1471b44c
+
+out/mruby/train/b51b21fc63c9805862322551387d9036f2b63433: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train b51b21fc63c9805862322551387d9036f2b63433
+
+out/mruby/train/b611c43a5de061ec21b343967e1b64c45c373d7e: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train b611c43a5de061ec21b343967e1b64c45c373d7e
+
+out/mruby/train/b64ce17852b180dfeea81cf458660be41a78974d: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train b64ce17852b180dfeea81cf458660be41a78974d
+
+out/mruby/train/faa4eaf6803bd11669bc324b4c34e7162286bfa3: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train faa4eaf6803bd11669bc324b4c34e7162286bfa3
+
+out/mruby/train/ff3a5ebed6ffbe3e70481531cfb969b497aa73ad: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby train ff3a5ebed6ffbe3e70481531cfb969b497aa73ad
+

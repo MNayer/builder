@@ -6,6 +6,7 @@ PROJECTS_WORKING := \
 	FFmpeg \
 	file \
 	gpac \
+	mruby \
 	openssl \
 	php-src \
 	radare2 \

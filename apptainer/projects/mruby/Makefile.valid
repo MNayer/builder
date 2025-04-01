@@ -1,0 +1,11 @@
+build_project_mruby: out/mruby/valid/28ccc664e5dcd3f9d55173e9afde77c4705a9ab6 out/mruby/valid/44f591aa8f7091e6ca6cb418e428ae6d4ceaf77d out/mruby/valid/97319697c8f9f6ff27b32589947e1918e3015503
+
+out/mruby/valid/28ccc664e5dcd3f9d55173e9afde77c4705a9ab6: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby valid 28ccc664e5dcd3f9d55173e9afde77c4705a9ab6
+
+out/mruby/valid/44f591aa8f7091e6ca6cb418e428ae6d4ceaf77d: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby valid 44f591aa8f7091e6ca6cb418e428ae6d4ceaf77d
+
+out/mruby/valid/97319697c8f9f6ff27b32589947e1918e3015503: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby valid 97319697c8f9f6ff27b32589947e1918e3015503
+

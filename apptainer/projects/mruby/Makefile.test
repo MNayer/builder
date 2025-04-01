@@ -1,0 +1,41 @@
+build_project_mruby: out/mruby/test/00acae117da1b45b318dc36531a7b0021b8097ae out/mruby/test/0849a2885f81cfd82134992c06df3ccd59052ac7 out/mruby/test/27d1e0132a0804581dca28df042e7047fd27eaa8 out/mruby/test/38b164ace7d6ae1c367883a3d67d7f559783faad out/mruby/test/3cf291f72224715942beaf8553e42ba8891ab3c6 out/mruby/test/47068ae07a5fa3aa9a1879cdfe98a9ce0f339299 out/mruby/test/a4d97934d51cb88954cc49161dc1d151f64afb6b out/mruby/test/aaa28a508903041dd7399d4159a8ace9766b022f out/mruby/test/ae3c99767a27f5c6c584162e2adc6a5d0eb2c54e out/mruby/test/b1d0296a937fe278239bdfac840a3fd0e93b3ee9 out/mruby/test/c8c083cb750606b2da81582cd8e43b442bb143e6 out/mruby/test/da48e7dbb20024c198493b8724adae1b842083aa out/mruby/test/f72315575f78a9a773adbce0ee7d3ec33434cb76
+
+out/mruby/test/00acae117da1b45b318dc36531a7b0021b8097ae: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test 00acae117da1b45b318dc36531a7b0021b8097ae
+
+out/mruby/test/0849a2885f81cfd82134992c06df3ccd59052ac7: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test 0849a2885f81cfd82134992c06df3ccd59052ac7
+
+out/mruby/test/27d1e0132a0804581dca28df042e7047fd27eaa8: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test 27d1e0132a0804581dca28df042e7047fd27eaa8
+
+out/mruby/test/38b164ace7d6ae1c367883a3d67d7f559783faad: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test 38b164ace7d6ae1c367883a3d67d7f559783faad
+
+out/mruby/test/3cf291f72224715942beaf8553e42ba8891ab3c6: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test 3cf291f72224715942beaf8553e42ba8891ab3c6
+
+out/mruby/test/47068ae07a5fa3aa9a1879cdfe98a9ce0f339299: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test 47068ae07a5fa3aa9a1879cdfe98a9ce0f339299
+
+out/mruby/test/a4d97934d51cb88954cc49161dc1d151f64afb6b: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test a4d97934d51cb88954cc49161dc1d151f64afb6b
+
+out/mruby/test/aaa28a508903041dd7399d4159a8ace9766b022f: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test aaa28a508903041dd7399d4159a8ace9766b022f
+
+out/mruby/test/ae3c99767a27f5c6c584162e2adc6a5d0eb2c54e: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test ae3c99767a27f5c6c584162e2adc6a5d0eb2c54e
+
+out/mruby/test/b1d0296a937fe278239bdfac840a3fd0e93b3ee9: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test b1d0296a937fe278239bdfac840a3fd0e93b3ee9
+
+out/mruby/test/c8c083cb750606b2da81582cd8e43b442bb143e6: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test c8c083cb750606b2da81582cd8e43b442bb143e6
+
+out/mruby/test/da48e7dbb20024c198493b8724adae1b842083aa: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test da48e7dbb20024c198493b8724adae1b842083aa
+
+out/mruby/test/f72315575f78a9a773adbce0ee7d3ec33434cb76: apptainer/projects/mruby/build.sh apptainer/projects/mruby/container.sif
+	./scripts/build_project.sh mruby test f72315575f78a9a773adbce0ee7d3ec33434cb76
+

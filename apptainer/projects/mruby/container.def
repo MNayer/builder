@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y bison gperf ruby
+  cd /work && git clone https://github.com/mruby/mruby
