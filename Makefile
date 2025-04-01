@@ -4,6 +4,7 @@
 # Use the following variable set the list of projects which are build
 PROJECTS_WORKING := \
 	file \
+	gpac \
 	radare2 \
 	vim
 

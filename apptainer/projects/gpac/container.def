@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y build-essential pkg-config yasm zlib1g-dev
+  cd /work && git clone https://github.com/gpac/gpac
