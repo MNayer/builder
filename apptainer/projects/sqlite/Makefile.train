@@ -1,0 +1,29 @@
+build_project_sqlite: out/sqlite/train/18f6ff9eb7db02356102283c28053b0a602f55d7 out/sqlite/train/522ebfa7cee96fb325a22ea3a2464a63485886a8 out/sqlite/train/57f7ece78410a8aae86aa4625fb7556897db384c out/sqlite/train/926f796e8feec15f3836aa0a060ed906f8ae04d3 out/sqlite/train/e41fd72acc7a06ce5a6a7d28154db1ffe8ba37a8 out/sqlite/train/e59c562b3f6894f84c715772c4b116d7b5c01348 out/sqlite/train/ebd70eedd5d6e6a890a670b5ee874a5eae86b4dd out/sqlite/train/effc07ec9c6e08d3bd17665f8800054770f8c643 out/sqlite/train/fd6bf04bba8035836e8f92771d277a4e868c6299
+
+out/sqlite/train/18f6ff9eb7db02356102283c28053b0a602f55d7: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train 18f6ff9eb7db02356102283c28053b0a602f55d7
+
+out/sqlite/train/522ebfa7cee96fb325a22ea3a2464a63485886a8: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train 522ebfa7cee96fb325a22ea3a2464a63485886a8
+
+out/sqlite/train/57f7ece78410a8aae86aa4625fb7556897db384c: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train 57f7ece78410a8aae86aa4625fb7556897db384c
+
+out/sqlite/train/926f796e8feec15f3836aa0a060ed906f8ae04d3: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train 926f796e8feec15f3836aa0a060ed906f8ae04d3
+
+out/sqlite/train/e41fd72acc7a06ce5a6a7d28154db1ffe8ba37a8: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train e41fd72acc7a06ce5a6a7d28154db1ffe8ba37a8
+
+out/sqlite/train/e59c562b3f6894f84c715772c4b116d7b5c01348: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train e59c562b3f6894f84c715772c4b116d7b5c01348
+
+out/sqlite/train/ebd70eedd5d6e6a890a670b5ee874a5eae86b4dd: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train ebd70eedd5d6e6a890a670b5ee874a5eae86b4dd
+
+out/sqlite/train/effc07ec9c6e08d3bd17665f8800054770f8c643: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train effc07ec9c6e08d3bd17665f8800054770f8c643
+
+out/sqlite/train/fd6bf04bba8035836e8f92771d277a4e868c6299: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite train fd6bf04bba8035836e8f92771d277a4e868c6299
+

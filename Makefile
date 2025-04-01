@@ -7,6 +7,7 @@ PROJECTS_WORKING := \
 	gpac \
 	php-src \
 	radare2 \
+	sqlite \
 	vim
 
 PROJECTS_WIP := 

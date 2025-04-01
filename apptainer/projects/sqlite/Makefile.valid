@@ -1,0 +1,32 @@
+build_project_sqlite: out/sqlite/valid/0990c415f65d2556a5e4122cbe5727d500411aeb out/sqlite/valid/396afe6f6aa90a31303c183e11b2b2d4b7956b35 out/sqlite/valid/39df24a3f02495e5ef6bb5ea8ce029a2c1e377e6 out/sqlite/valid/54d501092d88c0cf89bec4279951f548fb0b8618 out/sqlite/valid/5f69512404cd2e5153ddf90ea277fbba6dd58ab7 out/sqlite/valid/75e95e1fcd52d3ec8282edb75ac8cd0814095d54 out/sqlite/valid/8428b3b437569338a9d1e10c4cd8154acbe33089 out/sqlite/valid/8654186b0236d556aa85528c2573ee0b6ab71be3 out/sqlite/valid/a6c1a71cde082e09750465d5675699062922e387 out/sqlite/valid/d1d43efa4fb0f2098c0e2c5bf2e807c58d5ec05b
+
+out/sqlite/valid/0990c415f65d2556a5e4122cbe5727d500411aeb: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 0990c415f65d2556a5e4122cbe5727d500411aeb
+
+out/sqlite/valid/396afe6f6aa90a31303c183e11b2b2d4b7956b35: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 396afe6f6aa90a31303c183e11b2b2d4b7956b35
+
+out/sqlite/valid/39df24a3f02495e5ef6bb5ea8ce029a2c1e377e6: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 39df24a3f02495e5ef6bb5ea8ce029a2c1e377e6
+
+out/sqlite/valid/54d501092d88c0cf89bec4279951f548fb0b8618: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 54d501092d88c0cf89bec4279951f548fb0b8618
+
+out/sqlite/valid/5f69512404cd2e5153ddf90ea277fbba6dd58ab7: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 5f69512404cd2e5153ddf90ea277fbba6dd58ab7
+
+out/sqlite/valid/75e95e1fcd52d3ec8282edb75ac8cd0814095d54: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 75e95e1fcd52d3ec8282edb75ac8cd0814095d54
+
+out/sqlite/valid/8428b3b437569338a9d1e10c4cd8154acbe33089: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 8428b3b437569338a9d1e10c4cd8154acbe33089
+
+out/sqlite/valid/8654186b0236d556aa85528c2573ee0b6ab71be3: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid 8654186b0236d556aa85528c2573ee0b6ab71be3
+
+out/sqlite/valid/a6c1a71cde082e09750465d5675699062922e387: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid a6c1a71cde082e09750465d5675699062922e387
+
+out/sqlite/valid/d1d43efa4fb0f2098c0e2c5bf2e807c58d5ec05b: apptainer/projects/sqlite/build.sh apptainer/projects/sqlite/container.sif
+	./scripts/build_project.sh sqlite valid d1d43efa4fb0f2098c0e2c5bf2e807c58d5ec05b
+
