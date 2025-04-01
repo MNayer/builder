@@ -7,6 +7,7 @@ PROJECTS_WORKING := \
 	file \
 	gpac \ 
 	ImageMagick \
+	ImageMagick6 \
 	mruby \
 	openssl \
 	php-src \

@@ -1,0 +1,26 @@
+build_project_ImageMagick6: out/ImageMagick6/test/1aea203eb36409ce6903b9e41fe7cb70030e8750 out/ImageMagick6/test/210474b2fac6a661bfa7ed563213920e93e76395 out/ImageMagick6/test/29c8abce0da56b536542f76a9ddfebdaab5b2943 out/ImageMagick6/test/359331c61193138ce2b85331df25235b81499cfc out/ImageMagick6/test/450949ed017f009b399c937cf362f0058eacc5fa out/ImageMagick6/test/b268ce7a59440972f4476b9fd98104b6a836d971 out/ImageMagick6/test/dc070da861a015d3c97488fdcca6063b44d47a7b out/ImageMagick6/test/e6ea5876e0228165ee3abc6e959aa174cee06680
+
+out/ImageMagick6/test/1aea203eb36409ce6903b9e41fe7cb70030e8750: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test 1aea203eb36409ce6903b9e41fe7cb70030e8750
+
+out/ImageMagick6/test/210474b2fac6a661bfa7ed563213920e93e76395: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test 210474b2fac6a661bfa7ed563213920e93e76395
+
+out/ImageMagick6/test/29c8abce0da56b536542f76a9ddfebdaab5b2943: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test 29c8abce0da56b536542f76a9ddfebdaab5b2943
+
+out/ImageMagick6/test/359331c61193138ce2b85331df25235b81499cfc: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test 359331c61193138ce2b85331df25235b81499cfc
+
+out/ImageMagick6/test/450949ed017f009b399c937cf362f0058eacc5fa: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test 450949ed017f009b399c937cf362f0058eacc5fa
+
+out/ImageMagick6/test/b268ce7a59440972f4476b9fd98104b6a836d971: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test b268ce7a59440972f4476b9fd98104b6a836d971
+
+out/ImageMagick6/test/dc070da861a015d3c97488fdcca6063b44d47a7b: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test dc070da861a015d3c97488fdcca6063b44d47a7b
+
+out/ImageMagick6/test/e6ea5876e0228165ee3abc6e959aa174cee06680: apptainer/projects/ImageMagick6/build.sh apptainer/projects/ImageMagick6/container.sif
+	./scripts/build_project.sh ImageMagick6 test e6ea5876e0228165ee3abc6e959aa174cee06680
+
