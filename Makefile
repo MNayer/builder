@@ -8,6 +8,7 @@ PROJECTS_WORKING := \
 	php-src \
 	radare2 \
 	sqlite \
+	tcpdump \
 	vim
 
 PROJECTS_WIP := 
