@@ -1,0 +1,11 @@
+build_project_FFmpeg: out/FFmpeg/test/61d59703c91869f4e5cdacd8d6be52f8b89d4ba4 out/FFmpeg/test/9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6 out/FFmpeg/test/c953baa084607dd1d84c3bfcce3cf6a87c3e6e05
+
+out/FFmpeg/test/61d59703c91869f4e5cdacd8d6be52f8b89d4ba4: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg test 61d59703c91869f4e5cdacd8d6be52f8b89d4ba4
+
+out/FFmpeg/test/9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg test 9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6
+
+out/FFmpeg/test/c953baa084607dd1d84c3bfcce3cf6a87c3e6e05: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg test c953baa084607dd1d84c3bfcce3cf6a87c3e6e05
+

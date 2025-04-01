@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y nasm
+  cd /work && git clone https://github.com/FFmpeg/FFmpeg

@@ -1,0 +1,20 @@
+build_project_FFmpeg: out/FFmpeg/valid/26d3c81bc5ef2f8c3f09d45eaeacfb4b1139a777 out/FFmpeg/valid/27a99e2c7d450fef15594671eef4465c8a166bd7 out/FFmpeg/valid/3e5959b3457f7f1856d997261e6ac672bba49e8b out/FFmpeg/valid/6959358683c7533f586c07a766acc5fe9544d8b2 out/FFmpeg/valid/8a3b85f3a7952c54a2c36ba1797f7e0cde9f85aa out/FFmpeg/valid/a3a3730b5456ca00587455004d40c047f7b20a99
+
+out/FFmpeg/valid/26d3c81bc5ef2f8c3f09d45eaeacfb4b1139a777: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg valid 26d3c81bc5ef2f8c3f09d45eaeacfb4b1139a777
+
+out/FFmpeg/valid/27a99e2c7d450fef15594671eef4465c8a166bd7: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg valid 27a99e2c7d450fef15594671eef4465c8a166bd7
+
+out/FFmpeg/valid/3e5959b3457f7f1856d997261e6ac672bba49e8b: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg valid 3e5959b3457f7f1856d997261e6ac672bba49e8b
+
+out/FFmpeg/valid/6959358683c7533f586c07a766acc5fe9544d8b2: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg valid 6959358683c7533f586c07a766acc5fe9544d8b2
+
+out/FFmpeg/valid/8a3b85f3a7952c54a2c36ba1797f7e0cde9f85aa: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg valid 8a3b85f3a7952c54a2c36ba1797f7e0cde9f85aa
+
+out/FFmpeg/valid/a3a3730b5456ca00587455004d40c047f7b20a99: apptainer/projects/FFmpeg/build.sh apptainer/projects/FFmpeg/container.sif
+	./scripts/build_project.sh FFmpeg valid a3a3730b5456ca00587455004d40c047f7b20a99
+
