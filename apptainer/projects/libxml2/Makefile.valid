@@ -1,0 +1,23 @@
+build_project_libxml2: out/libxml2/valid/0f3b843b3534784ef57a4f9b874238aa1fda5a73 out/libxml2/valid/5a02583c7e683896d84878bd90641d8d9b0d0549 out/libxml2/valid/709a952110e98621c9b78c4f26462a9d8333102e out/libxml2/valid/90ccb58242866b0ba3edbef8fe44214a101c2b3e out/libxml2/valid/bf22713507fe1fc3a2c4b525cf0a88c2dc87a3a2 out/libxml2/valid/f0709e3ca8f8947f2d91ed34e92e38a4c23eae63 out/libxml2/valid/fec31bcd452e77c10579467ca87a785b41115de6
+
+out/libxml2/valid/0f3b843b3534784ef57a4f9b874238aa1fda5a73: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid 0f3b843b3534784ef57a4f9b874238aa1fda5a73
+
+out/libxml2/valid/5a02583c7e683896d84878bd90641d8d9b0d0549: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid 5a02583c7e683896d84878bd90641d8d9b0d0549
+
+out/libxml2/valid/709a952110e98621c9b78c4f26462a9d8333102e: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid 709a952110e98621c9b78c4f26462a9d8333102e
+
+out/libxml2/valid/90ccb58242866b0ba3edbef8fe44214a101c2b3e: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid 90ccb58242866b0ba3edbef8fe44214a101c2b3e
+
+out/libxml2/valid/bf22713507fe1fc3a2c4b525cf0a88c2dc87a3a2: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid bf22713507fe1fc3a2c4b525cf0a88c2dc87a3a2
+
+out/libxml2/valid/f0709e3ca8f8947f2d91ed34e92e38a4c23eae63: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid f0709e3ca8f8947f2d91ed34e92e38a4c23eae63
+
+out/libxml2/valid/fec31bcd452e77c10579467ca87a785b41115de6: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 valid fec31bcd452e77c10579467ca87a785b41115de6
+

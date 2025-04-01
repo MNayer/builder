@@ -1,0 +1,17 @@
+build_project_libxml2: out/libxml2/test/03c6723043775122313f107695066e5744189a08 out/libxml2/test/38eae571111db3b43ffdeb05487c9f60551906fb out/libxml2/test/5bd3c061823a8499b27422aee04ea20aae24f03e out/libxml2/test/b1d34de46a11323fccffa9fadeb33be670d602f5 out/libxml2/test/f1063fdbe7fa66332bbb76874101c2a7b51b519f
+
+out/libxml2/test/03c6723043775122313f107695066e5744189a08: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 test 03c6723043775122313f107695066e5744189a08
+
+out/libxml2/test/38eae571111db3b43ffdeb05487c9f60551906fb: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 test 38eae571111db3b43ffdeb05487c9f60551906fb
+
+out/libxml2/test/5bd3c061823a8499b27422aee04ea20aae24f03e: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 test 5bd3c061823a8499b27422aee04ea20aae24f03e
+
+out/libxml2/test/b1d34de46a11323fccffa9fadeb33be670d602f5: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 test b1d34de46a11323fccffa9fadeb33be670d602f5
+
+out/libxml2/test/f1063fdbe7fa66332bbb76874101c2a7b51b519f: apptainer/projects/libxml2/build.sh apptainer/projects/libxml2/container.sif
+	./scripts/build_project.sh libxml2 test f1063fdbe7fa66332bbb76874101c2a7b51b519f
+
