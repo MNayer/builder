@@ -1,0 +1,8 @@
+build_project_radare2: out/radare2/valid/04edfa82c1f3fa2bc3621ccdad2f93bdbf00e4f9 out/radare2/valid/cb8b683758edddae2d2f62e8e63a738c39f92683
+
+out/radare2/valid/04edfa82c1f3fa2bc3621ccdad2f93bdbf00e4f9: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 valid 04edfa82c1f3fa2bc3621ccdad2f93bdbf00e4f9
+
+out/radare2/valid/cb8b683758edddae2d2f62e8e63a738c39f92683: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 valid cb8b683758edddae2d2f62e8e63a738c39f92683
+

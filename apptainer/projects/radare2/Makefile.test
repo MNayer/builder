@@ -1,0 +1,62 @@
+build_project_radare2: out/radare2/test/0927ed3ae99444e7b47b84e43118deb10fe37529 out/radare2/test/0a557045476a2969c7079aec9eeb29d02f2809c6 out/radare2/test/10517e3ff0e609697eb8cde60ec8dc999ee5ea24 out/radare2/test/153bcdc29f11cd8c90e7d639a7405450f644ddb6 out/radare2/test/18d1d064bf599a255d55f09fca3104776fc34a67 out/radare2/test/193f4fe01d7f626e2ea937450f2e0c4604420e9d out/radare2/test/1dd65336f0f0c351d6ea853efcf73cf9c0030862 out/radare2/test/2b77b277d67ce061ee6ef839e7139ebc2103c1e3 out/radare2/test/3345147916b9bb3da225248d571cdbac690c0c4d out/radare2/test/37897226a1a31f982bfefdc4aeefc2e50355c73c out/radare2/test/48f0ea79f99174fb0a62cb2354e13496ce5b7c44 out/radare2/test/515e592b9bea0612bc63d8e93239ff35bcf645c7 out/radare2/test/9650e3c352f675687bf6c6f65ff2c4a3d0e288fa out/radare2/test/a7ce29647fcb38386d7439696375e16e093d6acb out/radare2/test/b4ca66f5d4363d68a6379e5706353b3bde5104a4 out/radare2/test/ca8d8b39f3e34a4fd943270330b80f1148129de4 out/radare2/test/d4ce40b516ffd70cf2e9e36832d8de139117d522 out/radare2/test/ecc44b6a2f18ee70ac133365de0e509d26d5e168 out/radare2/test/fc285cecb8469f0262db0170bf6dd7c01d9b8ed5 out/radare2/test/feaa4e7f7399c51ee6f52deb84dc3f795b4035d6
+
+out/radare2/test/0927ed3ae99444e7b47b84e43118deb10fe37529: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 0927ed3ae99444e7b47b84e43118deb10fe37529
+
+out/radare2/test/0a557045476a2969c7079aec9eeb29d02f2809c6: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 0a557045476a2969c7079aec9eeb29d02f2809c6
+
+out/radare2/test/10517e3ff0e609697eb8cde60ec8dc999ee5ea24: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 10517e3ff0e609697eb8cde60ec8dc999ee5ea24
+
+out/radare2/test/153bcdc29f11cd8c90e7d639a7405450f644ddb6: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 153bcdc29f11cd8c90e7d639a7405450f644ddb6
+
+out/radare2/test/18d1d064bf599a255d55f09fca3104776fc34a67: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 18d1d064bf599a255d55f09fca3104776fc34a67
+
+out/radare2/test/193f4fe01d7f626e2ea937450f2e0c4604420e9d: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 193f4fe01d7f626e2ea937450f2e0c4604420e9d
+
+out/radare2/test/1dd65336f0f0c351d6ea853efcf73cf9c0030862: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 1dd65336f0f0c351d6ea853efcf73cf9c0030862
+
+out/radare2/test/2b77b277d67ce061ee6ef839e7139ebc2103c1e3: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 2b77b277d67ce061ee6ef839e7139ebc2103c1e3
+
+out/radare2/test/3345147916b9bb3da225248d571cdbac690c0c4d: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 3345147916b9bb3da225248d571cdbac690c0c4d
+
+out/radare2/test/37897226a1a31f982bfefdc4aeefc2e50355c73c: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 37897226a1a31f982bfefdc4aeefc2e50355c73c
+
+out/radare2/test/48f0ea79f99174fb0a62cb2354e13496ce5b7c44: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 48f0ea79f99174fb0a62cb2354e13496ce5b7c44
+
+out/radare2/test/515e592b9bea0612bc63d8e93239ff35bcf645c7: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 515e592b9bea0612bc63d8e93239ff35bcf645c7
+
+out/radare2/test/9650e3c352f675687bf6c6f65ff2c4a3d0e288fa: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test 9650e3c352f675687bf6c6f65ff2c4a3d0e288fa
+
+out/radare2/test/a7ce29647fcb38386d7439696375e16e093d6acb: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test a7ce29647fcb38386d7439696375e16e093d6acb
+
+out/radare2/test/b4ca66f5d4363d68a6379e5706353b3bde5104a4: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test b4ca66f5d4363d68a6379e5706353b3bde5104a4
+
+out/radare2/test/ca8d8b39f3e34a4fd943270330b80f1148129de4: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test ca8d8b39f3e34a4fd943270330b80f1148129de4
+
+out/radare2/test/d4ce40b516ffd70cf2e9e36832d8de139117d522: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test d4ce40b516ffd70cf2e9e36832d8de139117d522
+
+out/radare2/test/ecc44b6a2f18ee70ac133365de0e509d26d5e168: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test ecc44b6a2f18ee70ac133365de0e509d26d5e168
+
+out/radare2/test/fc285cecb8469f0262db0170bf6dd7c01d9b8ed5: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test fc285cecb8469f0262db0170bf6dd7c01d9b8ed5
+
+out/radare2/test/feaa4e7f7399c51ee6f52deb84dc3f795b4035d6: apptainer/projects/radare2/build.sh apptainer/projects/radare2/container.sif
+	./scripts/build_project.sh radare2 test feaa4e7f7399c51ee6f52deb84dc3f795b4035d6
+

@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y wget 
+  cd /work && git clone https://github.com/radare/radare2

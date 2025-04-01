@@ -3,6 +3,7 @@
 
 # Use the following variable set the list of projects which are build
 PROJECTS_WORKING := \
+	radare2 \
 	vim
 
 PROJECTS_WIP := 
