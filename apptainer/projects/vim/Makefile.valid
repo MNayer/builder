@@ -1,0 +1,23 @@
+build_project_vim: out/vim/valid/0b5b06cb4777d1401fdf83e7d48d287662236e7e out/vim/valid/0c8485f0e4931463c0f7986e1ea84a7d79f10c75 out/vim/valid/399c297aa93afe2c0a39e2a1b3f972aebba44c9d out/vim/valid/5a73e0ca54c77e067c3b12ea6f35e3e8681e8cf8 out/vim/valid/a4bc2dd7cccf5a4a9f78b58b6f35a45d17164323 out/vim/valid/a59f2dfd0cf9ee1a584d3de5b7c2d47648e79060 out/vim/valid/a6f9e300161f4cb54713da22f65b261595e8e614
+
+out/vim/valid/0b5b06cb4777d1401fdf83e7d48d287662236e7e: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid 0b5b06cb4777d1401fdf83e7d48d287662236e7e
+
+out/vim/valid/0c8485f0e4931463c0f7986e1ea84a7d79f10c75: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid 0c8485f0e4931463c0f7986e1ea84a7d79f10c75
+
+out/vim/valid/399c297aa93afe2c0a39e2a1b3f972aebba44c9d: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid 399c297aa93afe2c0a39e2a1b3f972aebba44c9d
+
+out/vim/valid/5a73e0ca54c77e067c3b12ea6f35e3e8681e8cf8: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid 5a73e0ca54c77e067c3b12ea6f35e3e8681e8cf8
+
+out/vim/valid/a4bc2dd7cccf5a4a9f78b58b6f35a45d17164323: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid a4bc2dd7cccf5a4a9f78b58b6f35a45d17164323
+
+out/vim/valid/a59f2dfd0cf9ee1a584d3de5b7c2d47648e79060: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid a59f2dfd0cf9ee1a584d3de5b7c2d47648e79060
+
+out/vim/valid/a6f9e300161f4cb54713da22f65b261595e8e614: apptainer/projects/vim/build.sh apptainer/projects/vim/container.sif
+	./scripts/build_project.sh vim valid a6f9e300161f4cb54713da22f65b261595e8e614
+

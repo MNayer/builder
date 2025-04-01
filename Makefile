@@ -2,7 +2,9 @@
 # the containers.
 
 # Use the following variable set the list of projects which are build
-PROJECTS_WORKING := 
+PROJECTS_WORKING := \
+	vim
+
 PROJECTS_WIP := 
 
 PROJECTS := $(PROJECTS_WORKING) $(PROJECTS_WIP)
