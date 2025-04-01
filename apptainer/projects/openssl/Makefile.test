@@ -1,0 +1,20 @@
+build_project_openssl: out/openssl/test/582f1f41d49b5bf5ceaca241356d5f9c986f230f out/openssl/test/939b4960276b040fc0ed52232238fcc9e2e9ec21 out/openssl/test/94d23fcff9b2a7a8368dfe52214d5c2569882c11 out/openssl/test/97ab3c4b538840037812c8d9164d09a1f4bf11a1 out/openssl/test/cca1cd9a3447dd067503e4a85ebd1679ee78a48e out/openssl/test/f426625b6ae9a7831010750490a5f0ad689c5ba3
+
+out/openssl/test/582f1f41d49b5bf5ceaca241356d5f9c986f230f: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl test 582f1f41d49b5bf5ceaca241356d5f9c986f230f
+
+out/openssl/test/939b4960276b040fc0ed52232238fcc9e2e9ec21: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl test 939b4960276b040fc0ed52232238fcc9e2e9ec21
+
+out/openssl/test/94d23fcff9b2a7a8368dfe52214d5c2569882c11: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl test 94d23fcff9b2a7a8368dfe52214d5c2569882c11
+
+out/openssl/test/97ab3c4b538840037812c8d9164d09a1f4bf11a1: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl test 97ab3c4b538840037812c8d9164d09a1f4bf11a1
+
+out/openssl/test/cca1cd9a3447dd067503e4a85ebd1679ee78a48e: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl test cca1cd9a3447dd067503e4a85ebd1679ee78a48e
+
+out/openssl/test/f426625b6ae9a7831010750490a5f0ad689c5ba3: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl test f426625b6ae9a7831010750490a5f0ad689c5ba3
+

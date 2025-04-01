@@ -6,6 +6,7 @@ PROJECTS_WORKING := \
 	FFmpeg \
 	file \
 	gpac \
+	openssl \
 	php-src \
 	radare2 \
 	sqlite \

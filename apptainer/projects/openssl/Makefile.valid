@@ -1,0 +1,17 @@
+build_project_openssl: out/openssl/valid/0c27d793745c7837b13646302b6890a556b7017a out/openssl/valid/141a5482fdd1944804cc342c1c443362eed8501b out/openssl/valid/5fbc59cac60db4d7c3172152b8bdafe0c675fabd out/openssl/valid/63658103d4441924f8dbfc517b99bb54758a98b9 out/openssl/valid/cb22d2ae5a5b6069dbf66dbcce07223ac15a16de
+
+out/openssl/valid/0c27d793745c7837b13646302b6890a556b7017a: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl valid 0c27d793745c7837b13646302b6890a556b7017a
+
+out/openssl/valid/141a5482fdd1944804cc342c1c443362eed8501b: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl valid 141a5482fdd1944804cc342c1c443362eed8501b
+
+out/openssl/valid/5fbc59cac60db4d7c3172152b8bdafe0c675fabd: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl valid 5fbc59cac60db4d7c3172152b8bdafe0c675fabd
+
+out/openssl/valid/63658103d4441924f8dbfc517b99bb54758a98b9: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl valid 63658103d4441924f8dbfc517b99bb54758a98b9
+
+out/openssl/valid/cb22d2ae5a5b6069dbf66dbcce07223ac15a16de: apptainer/projects/openssl/build.sh apptainer/projects/openssl/container.sif
+	./scripts/build_project.sh openssl valid cb22d2ae5a5b6069dbf66dbcce07223ac15a16de
+
