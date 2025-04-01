@@ -1,0 +1,5 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  cd /work && git clone https://github.com/ImageMagick/ImageMagick

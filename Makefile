@@ -5,7 +5,8 @@
 PROJECTS_WORKING := \
 	FFmpeg \
 	file \
-	gpac \
+	gpac \ 
+	ImageMagick \
 	mruby \
 	openssl \
 	php-src \

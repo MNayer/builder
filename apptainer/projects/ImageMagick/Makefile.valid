@@ -1,0 +1,59 @@
+build_project_ImageMagick: out/ImageMagick/valid/30a74ed25a4890acfa94f452d653d54c9628c87e out/ImageMagick/valid/43dfb1894761c4929d5d5c98dc80ba4e59a0d114 out/ImageMagick/valid/4717744e4bb27de8ea978e51c6d5bcddf62ffe49 out/ImageMagick/valid/47e8e6ceef979327614d0b8f0c76c6ecb18e09cf out/ImageMagick/valid/60e52517ff86a451a85cac3eaba2016e80668297 out/ImageMagick/valid/68154c05cf40a80b6f2e2dd9fdc4428570f875f0 out/ImageMagick/valid/6ee5059cd3ac8d82714a1ab1321399b88539abf0 out/ImageMagick/valid/75f6f5032690077cae3eaeda3c0165cc765eaeb5 out/ImageMagick/valid/7b04c53c69792243d66d6876f843b850b3cc002b out/ImageMagick/valid/824f344ceb823e156ad6e85314d79c087933c2a0 out/ImageMagick/valid/868aad754ee599eb7153b84d610f2ecdf7b339f6 out/ImageMagick/valid/8d25d94a363b104acd6ff23df7470aeedb806c51 out/ImageMagick/valid/94174beff065cb5683d09d79e992c3ebbdead311 out/ImageMagick/valid/a6802e21d824e786d1e2a8440cf749a6e1a8d95f out/ImageMagick/valid/a855d3ad660f307fdb071794351822f9ce878c4e out/ImageMagick/valid/a9e63436aa04c805fe3f9e2ed242dfa4621df823 out/ImageMagick/valid/ef59bd764f88d893f1219fee8ba696a5d3f8c1c4 out/ImageMagick/valid/f8e8535bc821f24a30beee0030ff21ee3a2deedc out/ImageMagick/valid/fbd9a963db1ae5551c45dc8af57db0abd7695774
+
+out/ImageMagick/valid/30a74ed25a4890acfa94f452d653d54c9628c87e: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 30a74ed25a4890acfa94f452d653d54c9628c87e
+
+out/ImageMagick/valid/43dfb1894761c4929d5d5c98dc80ba4e59a0d114: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 43dfb1894761c4929d5d5c98dc80ba4e59a0d114
+
+out/ImageMagick/valid/4717744e4bb27de8ea978e51c6d5bcddf62ffe49: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 4717744e4bb27de8ea978e51c6d5bcddf62ffe49
+
+out/ImageMagick/valid/47e8e6ceef979327614d0b8f0c76c6ecb18e09cf: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 47e8e6ceef979327614d0b8f0c76c6ecb18e09cf
+
+out/ImageMagick/valid/60e52517ff86a451a85cac3eaba2016e80668297: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 60e52517ff86a451a85cac3eaba2016e80668297
+
+out/ImageMagick/valid/68154c05cf40a80b6f2e2dd9fdc4428570f875f0: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 68154c05cf40a80b6f2e2dd9fdc4428570f875f0
+
+out/ImageMagick/valid/6ee5059cd3ac8d82714a1ab1321399b88539abf0: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 6ee5059cd3ac8d82714a1ab1321399b88539abf0
+
+out/ImageMagick/valid/75f6f5032690077cae3eaeda3c0165cc765eaeb5: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 75f6f5032690077cae3eaeda3c0165cc765eaeb5
+
+out/ImageMagick/valid/7b04c53c69792243d66d6876f843b850b3cc002b: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 7b04c53c69792243d66d6876f843b850b3cc002b
+
+out/ImageMagick/valid/824f344ceb823e156ad6e85314d79c087933c2a0: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 824f344ceb823e156ad6e85314d79c087933c2a0
+
+out/ImageMagick/valid/868aad754ee599eb7153b84d610f2ecdf7b339f6: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 868aad754ee599eb7153b84d610f2ecdf7b339f6
+
+out/ImageMagick/valid/8d25d94a363b104acd6ff23df7470aeedb806c51: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 8d25d94a363b104acd6ff23df7470aeedb806c51
+
+out/ImageMagick/valid/94174beff065cb5683d09d79e992c3ebbdead311: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid 94174beff065cb5683d09d79e992c3ebbdead311
+
+out/ImageMagick/valid/a6802e21d824e786d1e2a8440cf749a6e1a8d95f: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid a6802e21d824e786d1e2a8440cf749a6e1a8d95f
+
+out/ImageMagick/valid/a855d3ad660f307fdb071794351822f9ce878c4e: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid a855d3ad660f307fdb071794351822f9ce878c4e
+
+out/ImageMagick/valid/a9e63436aa04c805fe3f9e2ed242dfa4621df823: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid a9e63436aa04c805fe3f9e2ed242dfa4621df823
+
+out/ImageMagick/valid/ef59bd764f88d893f1219fee8ba696a5d3f8c1c4: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid ef59bd764f88d893f1219fee8ba696a5d3f8c1c4
+
+out/ImageMagick/valid/f8e8535bc821f24a30beee0030ff21ee3a2deedc: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid f8e8535bc821f24a30beee0030ff21ee3a2deedc
+
+out/ImageMagick/valid/fbd9a963db1ae5551c45dc8af57db0abd7695774: apptainer/projects/ImageMagick/build.sh apptainer/projects/ImageMagick/container.sif
+	./scripts/build_project.sh ImageMagick valid fbd9a963db1ae5551c45dc8af57db0abd7695774
+
