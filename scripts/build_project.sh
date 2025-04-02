@@ -1,4 +1,9 @@
 #!/bin/bash
+#SBATCH --job-name=laica-projects
+#SBATCH --partition=cpu-2h
+#SBATCH --gpus-per-node=0
+#SBATCH --ntasks-per-node=32
+#SBATCH --output=logs/job-projects-%j.out
 
 set -e
 
@@ -10,15 +15,15 @@ if [ $# -eq 3 ]; then
 fi
 
 if [ $# -eq 0 ]; then
-    # Ensure SLURM_ARRAY_JOB_ID variable is set
-    if [ -z "$SLURM_ARRAY_JOB_ID" ]; then
-        echo "Error: No parameters provided and SLURM_ARRAY_JOB_ID variable is not set."
+    # Ensure SLURM_ARRAY_TASK_ID variable is set
+    if [ -z "$SLURM_ARRAY_TASK_ID" ]; then
+        echo "Error: No parameters provided and SLURM_ARRAY_TASK_ID variable is not set."
         exit 1
     fi
     
-    # Ensure SLURM_ARRAY_JOB_ID is a valid integer
-    if ! [[ "$SLURM_ARRAY_JOB_ID" =~ ^[0-9]+$ ]]; then
-        echo "Error: SLURM_ARRAY_JOB_ID variable must be an integer."
+    # Ensure SLURM_ARRAY_TASK_ID is a valid integer
+    if ! [[ "$SLURM_ARRAY_TASK_ID" =~ ^[0-9]+$ ]]; then
+        echo "Error: SLURM_ARRAY_TASK_ID variable must be an integer."
         exit 1
     fi
     
@@ -30,11 +35,11 @@ if [ $# -eq 0 ]; then
     fi
     
     # Read the specified line
-    LINE=$(sed -n "${SLURM_ARRAY_JOB_ID}p" "$FILE")
+    LINE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$FILE")
     
     # Check if line exists
     if [ -z "$LINE" ]; then
-        echo "Error: Line number $SLURM_ARRAY_JOB_ID is out of range."
+        echo "Error: Line number $SLURM_ARRAY_TASK_ID is out of range."
         exit 1
     fi
     
@@ -48,10 +53,22 @@ echo "Project name: ${project_name}"
 echo "Dataset: ${dataset}"
 echo "Commit hash: ${commit_hash}"
 
+if [ ! -z "$SLURM_ARRAY_JOB_ID" ]; then
+    echo "SLURM_JOB_ID: ${SLURM_JOB_ID}"
+    echo "SLURM_ARRAY_JOB_ID: ${SLURM_ARRAY_JOB_ID}"
+    echo "SLURM_NODEID: ${SLURM_NODEID}"
+    echo "SLURMD_NODENAME: ${SLURMD_NODENAME}"
+fi
+
 source ./scripts/config.sh
 
 project_path=./apptainer/projects/${project_name}
 outdir=${OUT_DIR_PREFIX}/${project_name}/${dataset}/${commit_hash}
+
+if [ -f ${outdir}/done ]; then
+    echo "done file found. exit early"
+    exit 0
+fi
 
 # Create output directory
 mkdir -p ${outdir}
