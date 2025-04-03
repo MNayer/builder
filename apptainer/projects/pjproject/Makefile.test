@@ -1,0 +1,29 @@
+build_project_pjproject: out/pjproject/test/077b465c33f0aec05a49cd2ca456f9a1b112e896 out/pjproject/test/11559e49e65bdf00922ad5ae28913ec6a198d508 out/pjproject/test/15663e3f37091069b8c98a7fce680dc04bc8e865 out/pjproject/test/450baca94f475345542c6953832650c390889202 out/pjproject/test/560a1346f87aabe126509bb24930106dea292b00 out/pjproject/test/856f87c2e97a27b256482dbe0d748b1194355a21 out/pjproject/test/8b621f192cae14456ee0b0ade52ce6c6f258af1e out/pjproject/test/9fae8f43accef8ea65d4a8ae9cdf297c46cfe29a out/pjproject/test/f74c1fc22b760d2a24369aa72c74c4a9ab985859
+
+out/pjproject/test/077b465c33f0aec05a49cd2ca456f9a1b112e896: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 077b465c33f0aec05a49cd2ca456f9a1b112e896
+
+out/pjproject/test/11559e49e65bdf00922ad5ae28913ec6a198d508: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 11559e49e65bdf00922ad5ae28913ec6a198d508
+
+out/pjproject/test/15663e3f37091069b8c98a7fce680dc04bc8e865: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 15663e3f37091069b8c98a7fce680dc04bc8e865
+
+out/pjproject/test/450baca94f475345542c6953832650c390889202: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 450baca94f475345542c6953832650c390889202
+
+out/pjproject/test/560a1346f87aabe126509bb24930106dea292b00: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 560a1346f87aabe126509bb24930106dea292b00
+
+out/pjproject/test/856f87c2e97a27b256482dbe0d748b1194355a21: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 856f87c2e97a27b256482dbe0d748b1194355a21
+
+out/pjproject/test/8b621f192cae14456ee0b0ade52ce6c6f258af1e: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 8b621f192cae14456ee0b0ade52ce6c6f258af1e
+
+out/pjproject/test/9fae8f43accef8ea65d4a8ae9cdf297c46cfe29a: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test 9fae8f43accef8ea65d4a8ae9cdf297c46cfe29a
+
+out/pjproject/test/f74c1fc22b760d2a24369aa72c74c4a9ab985859: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject test f74c1fc22b760d2a24369aa72c74c4a9ab985859
+

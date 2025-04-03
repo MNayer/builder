@@ -12,6 +12,7 @@ PROJECTS_WORKING := \
 	mruby \
 	openssl \
 	php-src \
+	pjproject \
 	radare2 \
 	samba \
 	sqlite \

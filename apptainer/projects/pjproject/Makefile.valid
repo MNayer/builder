@@ -1,0 +1,5 @@
+build_project_pjproject: out/pjproject/valid/97b3d7addbaa720b7ddb0af9bf6f3e443e664365
+
+out/pjproject/valid/97b3d7addbaa720b7ddb0af9bf6f3e443e664365: apptainer/projects/pjproject/build.sh apptainer/projects/pjproject/container.sif
+	./scripts/build_project.sh pjproject valid 97b3d7addbaa720b7ddb0af9bf6f3e443e664365
+
