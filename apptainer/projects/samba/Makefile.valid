@@ -1,0 +1,20 @@
+build_project_samba: out/samba/valid/30e724cbff1ecd90e5a676831902d1e41ec1b347 out/samba/valid/52dd9f8f835bc23415ec51dcc344478497e208c3 out/samba/valid/bbad8f1de43d643e20f1a71c3466f08ed7c9d480 out/samba/valid/c300a85848350635e7ddd8129b31c4d439dc0f8a out/samba/valid/f100bd2f2e4f047942002a992c99104227a17f81 out/samba/valid/f9b2267c6eb8138fc94df7a138ad5d87526f1d79
+
+out/samba/valid/30e724cbff1ecd90e5a676831902d1e41ec1b347: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba valid 30e724cbff1ecd90e5a676831902d1e41ec1b347
+
+out/samba/valid/52dd9f8f835bc23415ec51dcc344478497e208c3: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba valid 52dd9f8f835bc23415ec51dcc344478497e208c3
+
+out/samba/valid/bbad8f1de43d643e20f1a71c3466f08ed7c9d480: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba valid bbad8f1de43d643e20f1a71c3466f08ed7c9d480
+
+out/samba/valid/c300a85848350635e7ddd8129b31c4d439dc0f8a: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba valid c300a85848350635e7ddd8129b31c4d439dc0f8a
+
+out/samba/valid/f100bd2f2e4f047942002a992c99104227a17f81: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba valid f100bd2f2e4f047942002a992c99104227a17f81
+
+out/samba/valid/f9b2267c6eb8138fc94df7a138ad5d87526f1d79: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba valid f9b2267c6eb8138fc94df7a138ad5d87526f1d79
+

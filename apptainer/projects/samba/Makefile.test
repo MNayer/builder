@@ -1,0 +1,14 @@
+build_project_samba: out/samba/test/34383981a0c40860f71a4451ff8fd752e1b67666 out/samba/test/60f922bf1bd8816eacbb32c24793ad1f97a1d9f2 out/samba/test/a60863458dc6b60a09aa8d31fada6c36f5043c76 out/samba/test/eb50fb8f3bf670bd7d1cf8fd4368ef4a73083696
+
+out/samba/test/34383981a0c40860f71a4451ff8fd752e1b67666: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba test 34383981a0c40860f71a4451ff8fd752e1b67666
+
+out/samba/test/60f922bf1bd8816eacbb32c24793ad1f97a1d9f2: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba test 60f922bf1bd8816eacbb32c24793ad1f97a1d9f2
+
+out/samba/test/a60863458dc6b60a09aa8d31fada6c36f5043c76: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba test a60863458dc6b60a09aa8d31fada6c36f5043c76
+
+out/samba/test/eb50fb8f3bf670bd7d1cf8fd4368ef4a73083696: apptainer/projects/samba/build.sh apptainer/projects/samba/container.sif
+	./scripts/build_project.sh samba test eb50fb8f3bf670bd7d1cf8fd4368ef4a73083696
+

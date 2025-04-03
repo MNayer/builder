@@ -13,6 +13,7 @@ PROJECTS_WORKING := \
 	openssl \
 	php-src \
 	radare2 \
+	samba \
 	sqlite \
 	tcpdump \
 	vim
