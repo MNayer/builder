@@ -1,0 +1,38 @@
+build_project_mariadb: out/mariadb/test/0168d1eda30dad4b517659422e347175eb89e923 out/mariadb/test/0dec71ca53729bd1a565bdc800e64008b44ffa48 out/mariadb/test/1b8bb44106f528f742faa19d23bd6e822be04f39 out/mariadb/test/3a52569499e2f0c4d1f25db1e81617a9d9755400 out/mariadb/test/5ba77222e9fe7af8ff403816b5338b18b342053c out/mariadb/test/807945f2eb5fa22e6f233cc17b85a2e141efe2c8 out/mariadb/test/9e2c26b0f6d91b3b6b0deaf9bc82f6e6ebf9a90b out/mariadb/test/9e39d0ae44595dbd1570805d97c9c874778a6be8 out/mariadb/test/b3c3291f0b7c1623cb20663f7cf31b7f749768bc out/mariadb/test/c05fd700970ad45735caed3a6f9930d4ce19a3bd out/mariadb/test/e1eb39a446c30b8459c39fd7f2ee1c55a36e97d2 out/mariadb/test/ecb6f9c894d3ebafeff1c6eb3b65cd248062296f
+
+out/mariadb/test/0168d1eda30dad4b517659422e347175eb89e923: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 0168d1eda30dad4b517659422e347175eb89e923
+
+out/mariadb/test/0dec71ca53729bd1a565bdc800e64008b44ffa48: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 0dec71ca53729bd1a565bdc800e64008b44ffa48
+
+out/mariadb/test/1b8bb44106f528f742faa19d23bd6e822be04f39: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 1b8bb44106f528f742faa19d23bd6e822be04f39
+
+out/mariadb/test/3a52569499e2f0c4d1f25db1e81617a9d9755400: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 3a52569499e2f0c4d1f25db1e81617a9d9755400
+
+out/mariadb/test/5ba77222e9fe7af8ff403816b5338b18b342053c: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 5ba77222e9fe7af8ff403816b5338b18b342053c
+
+out/mariadb/test/807945f2eb5fa22e6f233cc17b85a2e141efe2c8: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 807945f2eb5fa22e6f233cc17b85a2e141efe2c8
+
+out/mariadb/test/9e2c26b0f6d91b3b6b0deaf9bc82f6e6ebf9a90b: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 9e2c26b0f6d91b3b6b0deaf9bc82f6e6ebf9a90b
+
+out/mariadb/test/9e39d0ae44595dbd1570805d97c9c874778a6be8: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test 9e39d0ae44595dbd1570805d97c9c874778a6be8
+
+out/mariadb/test/b3c3291f0b7c1623cb20663f7cf31b7f749768bc: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test b3c3291f0b7c1623cb20663f7cf31b7f749768bc
+
+out/mariadb/test/c05fd700970ad45735caed3a6f9930d4ce19a3bd: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test c05fd700970ad45735caed3a6f9930d4ce19a3bd
+
+out/mariadb/test/e1eb39a446c30b8459c39fd7f2ee1c55a36e97d2: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test e1eb39a446c30b8459c39fd7f2ee1c55a36e97d2
+
+out/mariadb/test/ecb6f9c894d3ebafeff1c6eb3b65cd248062296f: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb test ecb6f9c894d3ebafeff1c6eb3b65cd248062296f
+

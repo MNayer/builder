@@ -9,6 +9,7 @@ PROJECTS_WORKING := \
 	ImageMagick \
 	ImageMagick6 \
 	libxml2 \
+	mariadb \
 	mruby \
 	openssl \
 	php-src \

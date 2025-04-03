@@ -1,0 +1,26 @@
+build_project_mariadb: out/mariadb/train/0b5a5258abbeaf8a0c3a18c7e753699787fdf46e out/mariadb/train/3c209bfc040ddfc41ece8357d772547432353fd2 out/mariadb/train/7c30bc38a588b22b01f11130cfe99e7f36accf94 out/mariadb/train/af810407f78b7f792a9bb8c47c8c532eb3b3a758 out/mariadb/train/b1351c15946349f9daa7e5297fb2ac6f3139e4a8 out/mariadb/train/e4e25d2bacc067417c35750f5f6c44cad10c81de out/mariadb/train/eef21014898d61e77890359d6546d4985d829ef6 out/mariadb/train/f0d774d48416bb06063184380b684380ca005a41
+
+out/mariadb/train/0b5a5258abbeaf8a0c3a18c7e753699787fdf46e: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train 0b5a5258abbeaf8a0c3a18c7e753699787fdf46e
+
+out/mariadb/train/3c209bfc040ddfc41ece8357d772547432353fd2: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train 3c209bfc040ddfc41ece8357d772547432353fd2
+
+out/mariadb/train/7c30bc38a588b22b01f11130cfe99e7f36accf94: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train 7c30bc38a588b22b01f11130cfe99e7f36accf94
+
+out/mariadb/train/af810407f78b7f792a9bb8c47c8c532eb3b3a758: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train af810407f78b7f792a9bb8c47c8c532eb3b3a758
+
+out/mariadb/train/b1351c15946349f9daa7e5297fb2ac6f3139e4a8: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train b1351c15946349f9daa7e5297fb2ac6f3139e4a8
+
+out/mariadb/train/e4e25d2bacc067417c35750f5f6c44cad10c81de: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train e4e25d2bacc067417c35750f5f6c44cad10c81de
+
+out/mariadb/train/eef21014898d61e77890359d6546d4985d829ef6: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train eef21014898d61e77890359d6546d4985d829ef6
+
+out/mariadb/train/f0d774d48416bb06063184380b684380ca005a41: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb train f0d774d48416bb06063184380b684380ca005a41
+

@@ -1,0 +1,20 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+    apt-get install -y gzip \
+      tar \
+      bison \
+      libncurses-dev \
+      zlib1g-dev \
+      libevent-dev \
+      cmake \
+      libgnutls28-dev \
+      libxml2-dev \
+      libboost-dev \
+      libaio-dev \
+      libsystemd-dev \
+      libcurl4-openssl-dev \
+      libbz2-dev \
+      libpam0g-dev
+  cd /work && git clone https://github.com/MariaDB/server mariadb

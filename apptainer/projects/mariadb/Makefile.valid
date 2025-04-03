@@ -1,0 +1,11 @@
+build_project_mariadb: out/mariadb/valid/0beed9b5e933f0ff79b3bb346524f7a451d14e38 out/mariadb/valid/2e7891080667c59ac80f788eef4d59d447595772 out/mariadb/valid/ff77a09bda884fe6bf3917eb29b9d3a2f53f919b
+
+out/mariadb/valid/0beed9b5e933f0ff79b3bb346524f7a451d14e38: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb valid 0beed9b5e933f0ff79b3bb346524f7a451d14e38
+
+out/mariadb/valid/2e7891080667c59ac80f788eef4d59d447595772: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb valid 2e7891080667c59ac80f788eef4d59d447595772
+
+out/mariadb/valid/ff77a09bda884fe6bf3917eb29b9d3a2f53f919b: apptainer/projects/mariadb/build.sh apptainer/projects/mariadb/container.sif
+	./scripts/build_project.sh mariadb valid ff77a09bda884fe6bf3917eb29b9d3a2f53f919b
+
