@@ -28,7 +28,7 @@ PROJECTS := $(PROJECTS_WORKING) $(PROJECTS_WIP)
 
 .PHONY: build_images build_projects
 
-all: build_projects
+all: build_images
 
 build_images: $(patsubst %, apptainer/projects/%/container.sif, $(PROJECTS))
 build_projects: $(patsubst %, build_project_%, $(PROJECTS))
@@ -46,10 +46,8 @@ apptainer/projects/%/container.sif: apptainer/projects/%/container.def apptainer
 ## Build projects:
 #
 
-# - out/{project_name}/done
 $(foreach project, $(PROJECTS), \
-	$(eval out/$(project)/done: apptainer/projects/$(project)/container.sif; ./scripts/build_project.sh $(project)) )
-
-# - build_project_{project_name}
-$(foreach project, $(PROJECTS), \
-	$(eval build_project_$(project): out/$(project)/done) )
+	$(if $(wildcard apptainer/projects/$(project)/Makefile.train),$(eval include apptainer/projects/$(project)/Makefile.train)) \
+	$(if $(wildcard apptainer/projects/$(project)/Makefile.test),$(eval include apptainer/projects/$(project)/Makefile.test)) \
+	$(if $(wildcard apptainer/projects/$(project)/Makefile.valid),$(eval include apptainer/projects/$(project)/Makefile.valid)) \
+)
