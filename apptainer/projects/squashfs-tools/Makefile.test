@@ -1,0 +1,8 @@
+build_project_squashfs-tools: out/squashfs-tools/test/79b5a555058eef4e1e7ff220c344d39f8cd09646 out/squashfs-tools/test/e0485802ec72996c20026da320650d8362f555bd
+
+out/squashfs-tools/test/79b5a555058eef4e1e7ff220c344d39f8cd09646: apptainer/projects/squashfs-tools/build.sh apptainer/projects/squashfs-tools/container.sif
+	./scripts/build_project.sh squashfs-tools test 79b5a555058eef4e1e7ff220c344d39f8cd09646
+
+out/squashfs-tools/test/e0485802ec72996c20026da320650d8362f555bd: apptainer/projects/squashfs-tools/build.sh apptainer/projects/squashfs-tools/container.sif
+	./scripts/build_project.sh squashfs-tools test e0485802ec72996c20026da320650d8362f555bd
+
