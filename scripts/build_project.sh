@@ -49,6 +49,7 @@ fi
 
 # Output the values
 echo "COMPILING: "
+echo "Time: $(date)"
 echo "Project name: ${project_name}"
 echo "Dataset: ${dataset}"
 echo "Commit hash: ${commit_hash}"
@@ -58,12 +59,14 @@ if [ ! -z "$SLURM_ARRAY_JOB_ID" ]; then
     echo "SLURM_ARRAY_JOB_ID: ${SLURM_ARRAY_JOB_ID}"
     echo "SLURM_NODEID: ${SLURM_NODEID}"
     echo "SLURMD_NODENAME: ${SLURMD_NODENAME}"
+    echo "SLURM_ARRAY_TASK_ID: ${SLURM_ARRAY_TASK_ID}"
 fi
 
 source ./scripts/config.sh
 
 project_path=./apptainer/projects/${project_name}
 outdir=${OUT_DIR_PREFIX}/${project_name}/${dataset}/${commit_hash}
+cachedir=${CACHE_DIR_PREFIX}/${project_name}
 
 if [ -f ${outdir}/done ]; then
     echo "done file found. exit early"
@@ -72,6 +75,7 @@ fi
 
 # Create output directory
 mkdir -p ${outdir}
+mkdir -p ${cachedir}
 
 # Create overlay to make container writable
 mkdir -p ${WORK_DIR}
@@ -88,6 +92,7 @@ apptainer run \
   --contain \
   --overlay ${tempdir}/overlay.img \
   --bind ${outdir}:/out \
+  --bind ${cachedir}:/cache \
   --bind ${project_path}/build.sh:/work/build.sh:ro \
   --bind ${tempdir}/tmp:/tmp/ \
   --pwd /work/ \
@@ -97,4 +102,4 @@ apptainer run \
   ${project_path}/container.sif \
   compile
 
-touch ${outdir}/done
+echo ${SECONDS} > ${outdir}/done
