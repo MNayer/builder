@@ -1,0 +1,5 @@
+build_project_curl: out/curl/valid/39ce47f219b09c380b81f89fe54ac586c8db6bde
+
+out/curl/valid/39ce47f219b09c380b81f89fe54ac586c8db6bde: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl valid 39ce47f219b09c380b81f89fe54ac586c8db6bde
+

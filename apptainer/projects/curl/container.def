@@ -1,0 +1,15 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y \
+    libssl-dev \
+    zlib1g-dev \
+    libssh2-1-dev \
+    libc-ares-dev \
+    libssh-dev \
+    libidn2-0-dev \
+    libldap2-dev \
+    libnghttp2-dev \
+    libpsl-dev
+  cd /work && git clone https://github.com/curl/curl

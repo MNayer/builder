@@ -1,0 +1,23 @@
+build_project_curl: out/curl/test/058f98dc3fe595f21dc26a5b9b1699e519ba5705 out/curl/test/178bd7db34f77e020fb8562890c5625ccbd67093 out/curl/test/3a09fbb7f264c67c438d01a30669ce325aa508e2 out/curl/test/70b1900dd13d16f2e83f571407a614541d5ac9ba out/curl/test/7e92d12b4e6911f424678a133b19de670e183a59 out/curl/test/8dfc93e573ca740544a2d79ebb0ed786592c65c3 out/curl/test/914aaab9153764ef8fa4178215b8ad89d3ac263a
+
+out/curl/test/058f98dc3fe595f21dc26a5b9b1699e519ba5705: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 058f98dc3fe595f21dc26a5b9b1699e519ba5705
+
+out/curl/test/178bd7db34f77e020fb8562890c5625ccbd67093: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 178bd7db34f77e020fb8562890c5625ccbd67093
+
+out/curl/test/3a09fbb7f264c67c438d01a30669ce325aa508e2: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 3a09fbb7f264c67c438d01a30669ce325aa508e2
+
+out/curl/test/70b1900dd13d16f2e83f571407a614541d5ac9ba: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 70b1900dd13d16f2e83f571407a614541d5ac9ba
+
+out/curl/test/7e92d12b4e6911f424678a133b19de670e183a59: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 7e92d12b4e6911f424678a133b19de670e183a59
+
+out/curl/test/8dfc93e573ca740544a2d79ebb0ed786592c65c3: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 8dfc93e573ca740544a2d79ebb0ed786592c65c3
+
+out/curl/test/914aaab9153764ef8fa4178215b8ad89d3ac263a: apptainer/projects/curl/build.sh apptainer/projects/curl/container.sif
+	./scripts/build_project.sh curl test 914aaab9153764ef8fa4178215b8ad89d3ac263a
+
