@@ -1,0 +1,20 @@
+build_project_njs: out/njs/train/222d6fdcf0c6485ec8e175f3a7b70d650c234b4e out/njs/train/5c6130a2a0b4c41ab415f6b8992aa323636338b9 out/njs/train/7b3fba59f96e51ddf602222958ec855fba1e4383 out/njs/train/b9aea5854bcf6f2de8f7a7f1550874e392b94be2 out/njs/train/d457c9545e7e71ebb5c0479eb16b9d33175855e2 out/njs/train/f65981b0b8fcf02d69a40bc934803c25c9f607ab
+
+out/njs/train/222d6fdcf0c6485ec8e175f3a7b70d650c234b4e: apptainer/projects/njs/build.sh apptainer/projects/njs/container.sif
+	./scripts/build_project.sh njs train 222d6fdcf0c6485ec8e175f3a7b70d650c234b4e
+
+out/njs/train/5c6130a2a0b4c41ab415f6b8992aa323636338b9: apptainer/projects/njs/build.sh apptainer/projects/njs/container.sif
+	./scripts/build_project.sh njs train 5c6130a2a0b4c41ab415f6b8992aa323636338b9
+
+out/njs/train/7b3fba59f96e51ddf602222958ec855fba1e4383: apptainer/projects/njs/build.sh apptainer/projects/njs/container.sif
+	./scripts/build_project.sh njs train 7b3fba59f96e51ddf602222958ec855fba1e4383
+
+out/njs/train/b9aea5854bcf6f2de8f7a7f1550874e392b94be2: apptainer/projects/njs/build.sh apptainer/projects/njs/container.sif
+	./scripts/build_project.sh njs train b9aea5854bcf6f2de8f7a7f1550874e392b94be2
+
+out/njs/train/d457c9545e7e71ebb5c0479eb16b9d33175855e2: apptainer/projects/njs/build.sh apptainer/projects/njs/container.sif
+	./scripts/build_project.sh njs train d457c9545e7e71ebb5c0479eb16b9d33175855e2
+
+out/njs/train/f65981b0b8fcf02d69a40bc934803c25c9f607ab: apptainer/projects/njs/build.sh apptainer/projects/njs/container.sif
+	./scripts/build_project.sh njs train f65981b0b8fcf02d69a40bc934803c25c9f607ab
+

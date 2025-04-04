@@ -15,6 +15,7 @@ PROJECTS_WORKING := \
 	libxml2 \
 	mariadb \
 	mruby \
+	njs \
 	openjpeg \
 	openssl \
 	php-src \

@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  apt-get install -y libpcre3-dev zlib1g-dev libssl-dev libxml2-dev libxslt-dev libedit-dev
+  cd /work && git clone https://github.com/nginx/njs
