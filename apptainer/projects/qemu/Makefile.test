@@ -1,0 +1,38 @@
+build_project_qemu: out/qemu/test/1caff0340f49c93d535c6558a5138d20d475315c out/qemu/test/6bf21f3d83e95bcc4ba35a7a07cc6655e8b010b0 out/qemu/test/7882080388be5088e72c425b02223c02e6cb4295 out/qemu/test/8c92060d3c0248bd4d515719a35922cd2391b9b4 out/qemu/test/9302e863aa8baa5d932fc078967050c055fa1a7f out/qemu/test/98a8cc741dad9cb4738f81a994bcf8d77d619152 out/qemu/test/b05b267840515730dbf6753495d5b7bd8b04ad1c out/qemu/test/b9f79858a614d95f5de875d0ca31096eaab72c3b out/qemu/test/bc6f28995ff88f5d82c38afcfd65406f0ae375aa out/qemu/test/e392255766071c8cac480da3a9ae4f94e56d7cbc out/qemu/test/e73adfbeec9d4e008630c814759052ed945c3fed out/qemu/test/f9a70e79391f6d7c2a912d785239ee8effc1922d
+
+out/qemu/test/1caff0340f49c93d535c6558a5138d20d475315c: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test 1caff0340f49c93d535c6558a5138d20d475315c
+
+out/qemu/test/6bf21f3d83e95bcc4ba35a7a07cc6655e8b010b0: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test 6bf21f3d83e95bcc4ba35a7a07cc6655e8b010b0
+
+out/qemu/test/7882080388be5088e72c425b02223c02e6cb4295: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test 7882080388be5088e72c425b02223c02e6cb4295
+
+out/qemu/test/8c92060d3c0248bd4d515719a35922cd2391b9b4: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test 8c92060d3c0248bd4d515719a35922cd2391b9b4
+
+out/qemu/test/9302e863aa8baa5d932fc078967050c055fa1a7f: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test 9302e863aa8baa5d932fc078967050c055fa1a7f
+
+out/qemu/test/98a8cc741dad9cb4738f81a994bcf8d77d619152: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test 98a8cc741dad9cb4738f81a994bcf8d77d619152
+
+out/qemu/test/b05b267840515730dbf6753495d5b7bd8b04ad1c: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test b05b267840515730dbf6753495d5b7bd8b04ad1c
+
+out/qemu/test/b9f79858a614d95f5de875d0ca31096eaab72c3b: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test b9f79858a614d95f5de875d0ca31096eaab72c3b
+
+out/qemu/test/bc6f28995ff88f5d82c38afcfd65406f0ae375aa: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test bc6f28995ff88f5d82c38afcfd65406f0ae375aa
+
+out/qemu/test/e392255766071c8cac480da3a9ae4f94e56d7cbc: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test e392255766071c8cac480da3a9ae4f94e56d7cbc
+
+out/qemu/test/e73adfbeec9d4e008630c814759052ed945c3fed: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test e73adfbeec9d4e008630c814759052ed945c3fed
+
+out/qemu/test/f9a70e79391f6d7c2a912d785239ee8effc1922d: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu test f9a70e79391f6d7c2a912d785239ee8effc1922d
+

@@ -1,0 +1,32 @@
+build_project_qemu: out/qemu/valid/2563c9c6b8670400c48e562034b321a7cf3d9a85 out/qemu/valid/26194a58f4eb83c5bdf4061a1628508084450ba1 out/qemu/valid/331d2ac9ea307c990dc86e6493e8f0c48d14bb33 out/qemu/valid/418ade7849ce7641c0f7333718caf5091a02fd4c out/qemu/valid/4c65fed8bdf96780735dbdb92a8bd0d6b6526cc3 out/qemu/valid/6cd387833d05e8ad31829d97e474dc420625aed9 out/qemu/valid/736b01642d85be832385063f278fe7cd4ffb5221 out/qemu/valid/837f21aacf5a714c23ddaadbbc5212f9b661e3f7 out/qemu/valid/b15a22bbcbe6a78dc3d88fe3134985e4cdd87de4 out/qemu/valid/babd03fde68093482528010a5435c14ce9128e3f
+
+out/qemu/valid/2563c9c6b8670400c48e562034b321a7cf3d9a85: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 2563c9c6b8670400c48e562034b321a7cf3d9a85
+
+out/qemu/valid/26194a58f4eb83c5bdf4061a1628508084450ba1: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 26194a58f4eb83c5bdf4061a1628508084450ba1
+
+out/qemu/valid/331d2ac9ea307c990dc86e6493e8f0c48d14bb33: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 331d2ac9ea307c990dc86e6493e8f0c48d14bb33
+
+out/qemu/valid/418ade7849ce7641c0f7333718caf5091a02fd4c: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 418ade7849ce7641c0f7333718caf5091a02fd4c
+
+out/qemu/valid/4c65fed8bdf96780735dbdb92a8bd0d6b6526cc3: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 4c65fed8bdf96780735dbdb92a8bd0d6b6526cc3
+
+out/qemu/valid/6cd387833d05e8ad31829d97e474dc420625aed9: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 6cd387833d05e8ad31829d97e474dc420625aed9
+
+out/qemu/valid/736b01642d85be832385063f278fe7cd4ffb5221: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 736b01642d85be832385063f278fe7cd4ffb5221
+
+out/qemu/valid/837f21aacf5a714c23ddaadbbc5212f9b661e3f7: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid 837f21aacf5a714c23ddaadbbc5212f9b661e3f7
+
+out/qemu/valid/b15a22bbcbe6a78dc3d88fe3134985e4cdd87de4: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid b15a22bbcbe6a78dc3d88fe3134985e4cdd87de4
+
+out/qemu/valid/babd03fde68093482528010a5435c14ce9128e3f: apptainer/projects/qemu/build.sh apptainer/projects/qemu/container.sif
+	./scripts/build_project.sh qemu valid babd03fde68093482528010a5435c14ce9128e3f
+

@@ -18,6 +18,7 @@ PROJECTS_WORKING := \
 	openssl \
 	php-src \
 	pjproject \
+	qemu \
 	radare2 \
 	samba \
 	sqlite \
