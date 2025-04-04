@@ -11,6 +11,7 @@ PROJECTS_WORKING := \
 	libxml2 \
 	mariadb \
 	mruby \
+	openjpeg \
 	openssl \
 	php-src \
 	pjproject \

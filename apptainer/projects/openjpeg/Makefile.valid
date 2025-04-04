@@ -1,0 +1,14 @@
+build_project_openjpeg: out/openjpeg/valid/05f9b91e60debda0e83977e5e63b2e66486f7074 out/openjpeg/valid/15cf3d95814dc931ca0ecb132f81cb152e051bae out/openjpeg/valid/73fdf28342e4594019af26eb6a347a34eceb6296 out/openjpeg/valid/b2072402b7e14d22bba6fb8cde2a1e9996e9a919
+
+out/openjpeg/valid/05f9b91e60debda0e83977e5e63b2e66486f7074: apptainer/projects/openjpeg/build.sh apptainer/projects/openjpeg/container.sif
+	./scripts/build_project.sh openjpeg valid 05f9b91e60debda0e83977e5e63b2e66486f7074
+
+out/openjpeg/valid/15cf3d95814dc931ca0ecb132f81cb152e051bae: apptainer/projects/openjpeg/build.sh apptainer/projects/openjpeg/container.sif
+	./scripts/build_project.sh openjpeg valid 15cf3d95814dc931ca0ecb132f81cb152e051bae
+
+out/openjpeg/valid/73fdf28342e4594019af26eb6a347a34eceb6296: apptainer/projects/openjpeg/build.sh apptainer/projects/openjpeg/container.sif
+	./scripts/build_project.sh openjpeg valid 73fdf28342e4594019af26eb6a347a34eceb6296
+
+out/openjpeg/valid/b2072402b7e14d22bba6fb8cde2a1e9996e9a919: apptainer/projects/openjpeg/build.sh apptainer/projects/openjpeg/container.sif
+	./scripts/build_project.sh openjpeg valid b2072402b7e14d22bba6fb8cde2a1e9996e9a919
+
