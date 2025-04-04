@@ -14,3 +14,4 @@ fi
 
 sed -i 's|INSTALL_PREFIX = /usr/local|INSTALL_PREFIX = /out|' Makefile
 make
+make install

@@ -2,5 +2,5 @@ Bootstrap: localimage
 From: apptainer/base.sif
 
 %post
-  apt-get install -y liblzo2-dev liblz4-dev liblzma-dev libzstd-dev xattr
+  apt-get install -y zlib1g-dev liblzo2-dev liblz4-dev liblzma-dev libzstd-dev xattr help2man
   cd /work && git clone https://github.com/plougher/squashfs-tools

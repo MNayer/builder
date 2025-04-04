@@ -21,6 +21,7 @@ PROJECTS_WORKING := \
 	radare2 \
 	samba \
 	sqlite \
+	squashfs-tools \
 	tcpdump \
 	vim
 
