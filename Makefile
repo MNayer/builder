@@ -5,6 +5,7 @@
 PROJECTS_WORKING := \
 	FFmpeg \
 	file \
+	git \
 	ghostscript \
 	gpac \
 	ImageMagick \

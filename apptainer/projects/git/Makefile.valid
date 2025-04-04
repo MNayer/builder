@@ -1,0 +1,8 @@
+build_project_git: out/git/valid/620e2bb93785ed8eb60846d94fd4753d4817c8ec out/git/valid/f82a97eb9197c1e3768e72648f37ce0ca3233734
+
+out/git/valid/620e2bb93785ed8eb60846d94fd4753d4817c8ec: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git valid 620e2bb93785ed8eb60846d94fd4753d4817c8ec
+
+out/git/valid/f82a97eb9197c1e3768e72648f37ce0ca3233734: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git valid f82a97eb9197c1e3768e72648f37ce0ca3233734
+

@@ -1,0 +1,50 @@
+build_project_git: out/git/train/11a9f4d807a0d71dc6eff51bb87baf4ca2cccf1d out/git/train/1a7fd1fb2998002da6e9ff2ee46e1bdd25ee8404 out/git/train/273c61496f88c6495b886acb1041fe57965151da out/git/train/34fa79a6cde56d6d428ab0d3160cb094ebad3305 out/git/train/3c9d0414ed2db0167e6c828b547be8fc9f88fccc out/git/train/6d8684161ee9c03bed5cb69ae76dfdddb85a0003 out/git/train/7c3745fc6185495d5765628b4dfe1bd2c25a2981 out/git/train/98afac7a7cefdca0d2c4917dd8066a59f7088265 out/git/train/9a6bbee8006c24b46a85d29e7b38cfa79e9ab21b out/git/train/a124133e1e6ab5c7a9fef6d0e6bcb084e3455b46 out/git/train/b44ebb19e3234c5dffe9869ceac5408bb44c2e20 out/git/train/c173dad58787a7f11a526dbcdaa5a2fe9ff1c87f out/git/train/e1d911dd4c7b76a5a8cec0f5c8de15981e34da83 out/git/train/e904deb89d9a9669a76a426182506a084d3f6308 out/git/train/f6adec4e329ef0e25e14c63b735a5956dc67b8bc out/git/train/fd55a19eb1d49ae54008d932a65f79cd6fda45c9
+
+out/git/train/11a9f4d807a0d71dc6eff51bb87baf4ca2cccf1d: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 11a9f4d807a0d71dc6eff51bb87baf4ca2cccf1d
+
+out/git/train/1a7fd1fb2998002da6e9ff2ee46e1bdd25ee8404: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 1a7fd1fb2998002da6e9ff2ee46e1bdd25ee8404
+
+out/git/train/273c61496f88c6495b886acb1041fe57965151da: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 273c61496f88c6495b886acb1041fe57965151da
+
+out/git/train/34fa79a6cde56d6d428ab0d3160cb094ebad3305: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 34fa79a6cde56d6d428ab0d3160cb094ebad3305
+
+out/git/train/3c9d0414ed2db0167e6c828b547be8fc9f88fccc: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 3c9d0414ed2db0167e6c828b547be8fc9f88fccc
+
+out/git/train/6d8684161ee9c03bed5cb69ae76dfdddb85a0003: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 6d8684161ee9c03bed5cb69ae76dfdddb85a0003
+
+out/git/train/7c3745fc6185495d5765628b4dfe1bd2c25a2981: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 7c3745fc6185495d5765628b4dfe1bd2c25a2981
+
+out/git/train/98afac7a7cefdca0d2c4917dd8066a59f7088265: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 98afac7a7cefdca0d2c4917dd8066a59f7088265
+
+out/git/train/9a6bbee8006c24b46a85d29e7b38cfa79e9ab21b: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train 9a6bbee8006c24b46a85d29e7b38cfa79e9ab21b
+
+out/git/train/a124133e1e6ab5c7a9fef6d0e6bcb084e3455b46: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train a124133e1e6ab5c7a9fef6d0e6bcb084e3455b46
+
+out/git/train/b44ebb19e3234c5dffe9869ceac5408bb44c2e20: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train b44ebb19e3234c5dffe9869ceac5408bb44c2e20
+
+out/git/train/c173dad58787a7f11a526dbcdaa5a2fe9ff1c87f: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train c173dad58787a7f11a526dbcdaa5a2fe9ff1c87f
+
+out/git/train/e1d911dd4c7b76a5a8cec0f5c8de15981e34da83: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train e1d911dd4c7b76a5a8cec0f5c8de15981e34da83
+
+out/git/train/e904deb89d9a9669a76a426182506a084d3f6308: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train e904deb89d9a9669a76a426182506a084d3f6308
+
+out/git/train/f6adec4e329ef0e25e14c63b735a5956dc67b8bc: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train f6adec4e329ef0e25e14c63b735a5956dc67b8bc
+
+out/git/train/fd55a19eb1d49ae54008d932a65f79cd6fda45c9: apptainer/projects/git/build.sh apptainer/projects/git/container.sif
+	./scripts/build_project.sh git train fd55a19eb1d49ae54008d932a65f79cd6fda45c9
+
