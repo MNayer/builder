@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainer/base.sif
+
+%post
+  # TODO: Install dependencies if necessary
+  cd /work && git clone https://github.com/mdadams/jasper

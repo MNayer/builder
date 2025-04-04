@@ -8,6 +8,7 @@ PROJECTS_WORKING := \
 	gpac \
 	ImageMagick \
 	ImageMagick6 \
+	jasper \
 	libxml2 \
 	mariadb \
 	mruby \

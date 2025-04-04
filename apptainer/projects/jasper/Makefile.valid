@@ -1,0 +1,23 @@
+build_project_jasper: out/jasper/valid/03db7c81f6a8a92d896249bc673877749987fd7a out/jasper/valid/1b1c591306817e46e1e6a3300f714992b32f972b out/jasper/valid/41f214b121b837fa30d9ca5f2430212110f5cd9b out/jasper/valid/49174ab592cdfa6f1a929a2ee3d4b4976f9459fd out/jasper/valid/84d00fb29a22e360c2ff91bdc2cd81c288826bfc out/jasper/valid/8c4e99592e7da53a9de2934bc7781535d0e0595d out/jasper/valid/c6f9fb6ec7fc97a5c4213f9077faf8622685d160
+
+out/jasper/valid/03db7c81f6a8a92d896249bc673877749987fd7a: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid 03db7c81f6a8a92d896249bc673877749987fd7a
+
+out/jasper/valid/1b1c591306817e46e1e6a3300f714992b32f972b: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid 1b1c591306817e46e1e6a3300f714992b32f972b
+
+out/jasper/valid/41f214b121b837fa30d9ca5f2430212110f5cd9b: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid 41f214b121b837fa30d9ca5f2430212110f5cd9b
+
+out/jasper/valid/49174ab592cdfa6f1a929a2ee3d4b4976f9459fd: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid 49174ab592cdfa6f1a929a2ee3d4b4976f9459fd
+
+out/jasper/valid/84d00fb29a22e360c2ff91bdc2cd81c288826bfc: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid 84d00fb29a22e360c2ff91bdc2cd81c288826bfc
+
+out/jasper/valid/8c4e99592e7da53a9de2934bc7781535d0e0595d: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid 8c4e99592e7da53a9de2934bc7781535d0e0595d
+
+out/jasper/valid/c6f9fb6ec7fc97a5c4213f9077faf8622685d160: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper valid c6f9fb6ec7fc97a5c4213f9077faf8622685d160
+

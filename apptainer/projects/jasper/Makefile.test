@@ -1,0 +1,14 @@
+build_project_jasper: out/jasper/test/4cd52b5daac62b00a0a328451544807ddecf775f out/jasper/test/839b1bcf0450ff036c28e8db40a7abf886e02891 out/jasper/test/c54113d6fa49f8f26d1572e972b806276c5b05d5 out/jasper/test/d99636fad60629785efd1ef72da772a8ef68f54c
+
+out/jasper/test/4cd52b5daac62b00a0a328451544807ddecf775f: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper test 4cd52b5daac62b00a0a328451544807ddecf775f
+
+out/jasper/test/839b1bcf0450ff036c28e8db40a7abf886e02891: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper test 839b1bcf0450ff036c28e8db40a7abf886e02891
+
+out/jasper/test/c54113d6fa49f8f26d1572e972b806276c5b05d5: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper test c54113d6fa49f8f26d1572e972b806276c5b05d5
+
+out/jasper/test/d99636fad60629785efd1ef72da772a8ef68f54c: apptainer/projects/jasper/build.sh apptainer/projects/jasper/container.sif
+	./scripts/build_project.sh jasper test d99636fad60629785efd1ef72da772a8ef68f54c
+
