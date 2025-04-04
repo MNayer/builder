@@ -1,0 +1,107 @@
+build_project_ghostscript: out/ghostscript/train/0d3901189f245232f0161addf215d7268c4d05a3 out/ghostscript/train/0edd3d6c634a577db261615a9dc2719bca7f6e01 out/ghostscript/train/241d91112771a6104de10b3948c3f350d6690c1d out/ghostscript/train/2fc463d0efbd044a8232611f0898eeb12b72a970 out/ghostscript/train/39b1e54b2968620723bf32e96764c88797714879 out/ghostscript/train/3c2aebbedd37fab054e80f2e315de07d7e9b5bdb out/ghostscript/train/3ee55637480d5e319a5de0481b01c3346855cbc9 out/ghostscript/train/4dcc6affe04368461310a21238f7e1871a752a05 out/ghostscript/train/5008105780c0b0182ea6eda83ad5598f225be3ee out/ghostscript/train/5516c614dc33662a2afdc377159f70218e67bde5 out/ghostscript/train/60dabde18d7fe12b19da8b509bdfee9cc886aafc out/ghostscript/train/661e8d8fb8248c38d67958beda32f3a5876d0c3f out/ghostscript/train/671fd59eb657743aa86fbc1895cb15872a317caa out/ghostscript/train/71ceebcf56e682504da22c4035b39a2d451e8ffd out/ghostscript/train/7755e67116e8973ee0e3b22d653df026a84fa01b out/ghostscript/train/77ab465f1c394bb77f00966cd950650f3f53cb24 out/ghostscript/train/79cccf641486a6595c43f1de1cd7ade696020a31 out/ghostscript/train/83d4dae44c71816c084a635550acc1a51529b881 out/ghostscript/train/8abd22010eb4db0fb1b10e430d5f5d83e015ef70 out/ghostscript/train/937ccd17ac65935633b2ebc06cb7089b91e17e6b out/ghostscript/train/961b10cdd71403072fb99401a45f3bef6ce53626 out/ghostscript/train/97096297d409ec6f206298444ba00719607e8ba8 out/ghostscript/train/a6807394bd94b708be24758287b606154daaaed9 out/ghostscript/train/b2e7d38e845c7d4922d05e6e41f3a2dc1bc1b14a out/ghostscript/train/b326a71659b7837d3acde954b18bda1a6f5e9498 out/ghostscript/train/b575e1ec42cc86f6a58c603f2a88fcc2af699cc8 out/ghostscript/train/c501a58f8d5650c8ba21d447c0d6f07eafcb0f15 out/ghostscript/train/c53183d4e7103e87368b7cfa15367a47d559e323 out/ghostscript/train/c7c55972758a93350882c32147801a3485b010fe out/ghostscript/train/d2ab84732936b6e7e5a461dc94344902965e9a06 out/ghostscript/train/d621292fb2c8157d9899dcd83fd04dd250e30fe4 out/ghostscript/train/e698d5c11d27212aa1098bc5b1673a3378563092 out/ghostscript/train/ea735ba37dc0fd5f5622d031830b9a559dec1cc9 out/ghostscript/train/f597300439e62f5e921f0d7b1e880b5c1a1f1607 out/ghostscript/train/f5c7555c30393e64ec1f5ab0dfae5b55b3b3fc78
+
+out/ghostscript/train/0d3901189f245232f0161addf215d7268c4d05a3: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 0d3901189f245232f0161addf215d7268c4d05a3
+
+out/ghostscript/train/0edd3d6c634a577db261615a9dc2719bca7f6e01: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 0edd3d6c634a577db261615a9dc2719bca7f6e01
+
+out/ghostscript/train/241d91112771a6104de10b3948c3f350d6690c1d: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 241d91112771a6104de10b3948c3f350d6690c1d
+
+out/ghostscript/train/2fc463d0efbd044a8232611f0898eeb12b72a970: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 2fc463d0efbd044a8232611f0898eeb12b72a970
+
+out/ghostscript/train/39b1e54b2968620723bf32e96764c88797714879: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 39b1e54b2968620723bf32e96764c88797714879
+
+out/ghostscript/train/3c2aebbedd37fab054e80f2e315de07d7e9b5bdb: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 3c2aebbedd37fab054e80f2e315de07d7e9b5bdb
+
+out/ghostscript/train/3ee55637480d5e319a5de0481b01c3346855cbc9: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 3ee55637480d5e319a5de0481b01c3346855cbc9
+
+out/ghostscript/train/4dcc6affe04368461310a21238f7e1871a752a05: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 4dcc6affe04368461310a21238f7e1871a752a05
+
+out/ghostscript/train/5008105780c0b0182ea6eda83ad5598f225be3ee: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 5008105780c0b0182ea6eda83ad5598f225be3ee
+
+out/ghostscript/train/5516c614dc33662a2afdc377159f70218e67bde5: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 5516c614dc33662a2afdc377159f70218e67bde5
+
+out/ghostscript/train/60dabde18d7fe12b19da8b509bdfee9cc886aafc: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 60dabde18d7fe12b19da8b509bdfee9cc886aafc
+
+out/ghostscript/train/661e8d8fb8248c38d67958beda32f3a5876d0c3f: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 661e8d8fb8248c38d67958beda32f3a5876d0c3f
+
+out/ghostscript/train/671fd59eb657743aa86fbc1895cb15872a317caa: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 671fd59eb657743aa86fbc1895cb15872a317caa
+
+out/ghostscript/train/71ceebcf56e682504da22c4035b39a2d451e8ffd: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 71ceebcf56e682504da22c4035b39a2d451e8ffd
+
+out/ghostscript/train/7755e67116e8973ee0e3b22d653df026a84fa01b: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 7755e67116e8973ee0e3b22d653df026a84fa01b
+
+out/ghostscript/train/77ab465f1c394bb77f00966cd950650f3f53cb24: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 77ab465f1c394bb77f00966cd950650f3f53cb24
+
+out/ghostscript/train/79cccf641486a6595c43f1de1cd7ade696020a31: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 79cccf641486a6595c43f1de1cd7ade696020a31
+
+out/ghostscript/train/83d4dae44c71816c084a635550acc1a51529b881: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 83d4dae44c71816c084a635550acc1a51529b881
+
+out/ghostscript/train/8abd22010eb4db0fb1b10e430d5f5d83e015ef70: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 8abd22010eb4db0fb1b10e430d5f5d83e015ef70
+
+out/ghostscript/train/937ccd17ac65935633b2ebc06cb7089b91e17e6b: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 937ccd17ac65935633b2ebc06cb7089b91e17e6b
+
+out/ghostscript/train/961b10cdd71403072fb99401a45f3bef6ce53626: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 961b10cdd71403072fb99401a45f3bef6ce53626
+
+out/ghostscript/train/97096297d409ec6f206298444ba00719607e8ba8: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train 97096297d409ec6f206298444ba00719607e8ba8
+
+out/ghostscript/train/a6807394bd94b708be24758287b606154daaaed9: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train a6807394bd94b708be24758287b606154daaaed9
+
+out/ghostscript/train/b2e7d38e845c7d4922d05e6e41f3a2dc1bc1b14a: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train b2e7d38e845c7d4922d05e6e41f3a2dc1bc1b14a
+
+out/ghostscript/train/b326a71659b7837d3acde954b18bda1a6f5e9498: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train b326a71659b7837d3acde954b18bda1a6f5e9498
+
+out/ghostscript/train/b575e1ec42cc86f6a58c603f2a88fcc2af699cc8: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train b575e1ec42cc86f6a58c603f2a88fcc2af699cc8
+
+out/ghostscript/train/c501a58f8d5650c8ba21d447c0d6f07eafcb0f15: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train c501a58f8d5650c8ba21d447c0d6f07eafcb0f15
+
+out/ghostscript/train/c53183d4e7103e87368b7cfa15367a47d559e323: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train c53183d4e7103e87368b7cfa15367a47d559e323
+
+out/ghostscript/train/c7c55972758a93350882c32147801a3485b010fe: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train c7c55972758a93350882c32147801a3485b010fe
+
+out/ghostscript/train/d2ab84732936b6e7e5a461dc94344902965e9a06: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train d2ab84732936b6e7e5a461dc94344902965e9a06
+
+out/ghostscript/train/d621292fb2c8157d9899dcd83fd04dd250e30fe4: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train d621292fb2c8157d9899dcd83fd04dd250e30fe4
+
+out/ghostscript/train/e698d5c11d27212aa1098bc5b1673a3378563092: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train e698d5c11d27212aa1098bc5b1673a3378563092
+
+out/ghostscript/train/ea735ba37dc0fd5f5622d031830b9a559dec1cc9: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train ea735ba37dc0fd5f5622d031830b9a559dec1cc9
+
+out/ghostscript/train/f597300439e62f5e921f0d7b1e880b5c1a1f1607: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train f597300439e62f5e921f0d7b1e880b5c1a1f1607
+
+out/ghostscript/train/f5c7555c30393e64ec1f5ab0dfae5b55b3b3fc78: apptainer/projects/ghostscript/build.sh apptainer/projects/ghostscript/container.sif
+	./scripts/build_project.sh ghostscript train f5c7555c30393e64ec1f5ab0dfae5b55b3b3fc78
+

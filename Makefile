@@ -5,6 +5,7 @@
 PROJECTS_WORKING := \
 	FFmpeg \
 	file \
+	ghostscript \
 	gpac \
 	ImageMagick \
 	ImageMagick6 \
