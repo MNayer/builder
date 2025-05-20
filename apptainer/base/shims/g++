@@ -7,8 +7,8 @@ pcomm=$(ps -p $ppid -o comm=)
 
 if [ $pcomm = "clang" ] || [ $pcomm = "clang++" ] || [ $pcomm = "clang-cpp" ]; then
   #/usr/bin/g++-orig $@ $(cat /tmp/san/config/compiler_flags)
-  /usr/bin/g++-orig $@ ${ADDFLAGS}
+  /usr/bin/g++-orig "$@" ${ADDFLAGS}
 else
   #/usr/lib/llvm-$clangversion/bin/clang++ $@ $(cat /tmp/san/config/compiler_flags)
-  /usr/lib/llvm-$clangversion/bin/clang++ $@ ${ADDFLAGS}
+  /usr/lib/llvm-$clangversion/bin/clang++ "$@" ${ADDFLAGS}
 fi

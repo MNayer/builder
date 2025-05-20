@@ -95,6 +95,7 @@ apptainer run \
   --bind ${cachedir}:/cache \
   --bind ${project_path}/build.sh:/work/build.sh:ro \
   --bind ${tempdir}/tmp:/tmp/ \
+  --bind ${HOME}/.cache:${HOME}/.cache \
   --pwd /work/ \
   --env "NPROCS=${NPROCS}" \
   --env "ADDFLAGS=${ADD_FLAGS}" \
